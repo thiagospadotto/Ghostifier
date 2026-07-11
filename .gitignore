@@ -1,0 +1,35 @@
+# Dependências
+node_modules/
+/server/node_modules/
+
+# Outputs de Build
+dist/
+dist-ssr/
+build/
+out/
+
+# Arquivos de Ambiente e Segredos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.ntvsca
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

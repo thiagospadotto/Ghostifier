@@ -1,0 +1,3579 @@
+[
+  {
+    "id": 1,
+    "nomeProprietario": "Google Chrome / Microsoft Edge / Safari",
+    "nomeAlternativa": "Brave Browser",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/brave.png",
+    "descricao": "Navegador rápido baseado no Chromium com bloqueio nativo de anúncios, rastreadores e proteção avançada contra fingerprinting.",
+    "link": "https://brave.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Bloqueio nativo de anúncios e rastreadores (Brave Shields)",
+      "Excelente proteção contra fingerprinting do navegador",
+      "Navegação privada nativa integrada com a rede Tor"
+    ],
+    "contras": [
+      "Alguns recursos controversos ativados por padrão (Crypto/BAT)",
+      "Telemetria integrada (pode ser desativada nas opções)"
+    ],
+    "modeloNegocio": "Publicidade privada baseada em recompensas (opt-in)",
+    "isRecomendado": true,
+    "privacyScore": 7
+  },
+  {
+    "id": 2,
+    "nomeProprietario": "Google Chrome / Microsoft Edge / Safari",
+    "nomeAlternativa": "Firefox",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/firefox.png",
+    "descricao": "Navegador altamente customizável mantido por fundação sem fins lucrativos, com motor Gecko independente e isolamento de abas por containers.",
+    "link": "https://www.mozilla.org/firefox",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Motor Gecko independente que resiste ao monopólio do Chromium",
+      "Containers para isolamento de rastreamento entre sites",
+      "Ecossistema massivo de extensões e temas"
+    ],
+    "contras": [
+      "Exige pequenos ajustes manuais para privacidade máxima",
+      "Consumo de RAM pode ser maior em uso intenso"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 3,
+    "nomeProprietario": "Google Chrome / Apple Safari / Microsoft Edge",
+    "nomeAlternativa": "Tor Browser",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg",
+    "descricao": "Navegador oficial do Projeto Tor com anonimato máximo via roteamento em cebola de três saltos e proteção extrema contra fingerprinting.",
+    "link": "https://www.torproject.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Anonimato total pela rede Tor descentralizada",
+      "Isolamento completo de cookies e histórico automático",
+      "Proteção nativa extrema contra fingerprinting"
+    ],
+    "contras": [
+      "Velocidade reduzida pelo roteamento em múltiplos saltos",
+      "Alguns sites bloqueiam conexões da rede Tor"
+    ],
+    "modeloNegocio": "Gratuito / Mantido por Doações",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 4,
+    "nomeProprietario": "Google Chrome / Firefox / Microsoft Edge",
+    "nomeAlternativa": "Librewolf",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/librewolf.png",
+    "descricao": "Fork do Firefox com telemetria removida, uBlock Origin pré-instalado e limpeza forçada de cookies ao fechar o navegador.",
+    "link": "https://librewolf.net",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Telemetria e experimentos corporativos da Mozilla completamente removidos",
+      "uBlock Origin instalado e ativo por padrão",
+      "Política estrita de limpeza de cookies ao fechar"
+    ],
+    "contras": [
+      "Sem sincronização nativa via Firefox Sync",
+      "Pode deslogar de sites frequentemente pela política de cookies"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 5,
+    "nomeProprietario": "Google Chrome / Arc / Firefox",
+    "nomeAlternativa": "Zen Browser",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/app/zen_browser/zen/c0395c3a47811b62b1638b4fdebd3026/icons/128x128@2/app.zen_browser.zen.png",
+    "descricao": "Navegador baseado no Firefox com interface moderna, workspaces, barras laterais e foco em privacidade e produtividade.",
+    "link": "https://zen-browser.app",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Interface moderna com workspaces e barras laterais",
+      "Compatível com todas as extensões do Firefox",
+      "Foco em produtividade com abas divididas e painéis"
+    ],
+    "contras": [
+      "Projeto jovem, ainda em desenvolvimento ativo",
+      "Algumas funcionalidades experimentais podem ser instáveis"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 6,
+    "nomeProprietario": "Google Chrome para Android / Firefox Mobile",
+    "nomeAlternativa": "Fennec",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://f-droid.org/repo/org.mozilla.fennec_fdroid/en-US/icon.png",
+    "descricao": "Firefox para Android compilado pelo F-Droid sem componentes proprietários da Mozilla, com suporte completo a extensões.",
+    "link": "https://f-droid.org/packages/org.mozilla.fennec_fdroid/",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Zero telemetria ou pacotes proprietários",
+      "Suporte completo a extensões como uBlock Origin",
+      "Mantido e atualizado ativamente pela comunidade"
+    ],
+    "contras": [
+      "Disponível apenas para Android",
+      "Extensões recomendadas precisam ser configuradas manualmente"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 7,
+    "nomeProprietario": "Google Search / Bing / Yahoo",
+    "nomeAlternativa": "Startpage",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.startpage.com/sp/cdn/favicons/favicon-96x96.png",
+    "descricao": "Buscador privado que entrega resultados reais do Google sem rastrear, criar perfis ou armazenar dados pessoais dos usuários.",
+    "link": "https://www.startpage.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Qualidade de resultados do Google sem o rastreamento",
+      "Visualização Anônima de sites via proxy integrado",
+      "Sem cookies de rastreamento ou perfis comportamentais"
+    ],
+    "contras": [
+      "Código do buscador é proprietário",
+      "Exibe anúncios contextuais nos resultados"
+    ],
+    "modeloNegocio": "Publicidade privada não rastreada",
+    "isRecomendado": false,
+    "privacyScore": 5
+  },
+  {
+    "id": 8,
+    "nomeProprietario": "Google Search / Bing / Yahoo",
+    "nomeAlternativa": "Brave Search",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.simpleicons.org/brave",
+    "descricao": "Mecanismo de busca com índice 100% independente do Google e Microsoft, sem rastrear pesquisas, IPs ou criar perfis de usuário.",
+    "link": "https://search.brave.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Índice próprio independente do duopólio Google/Microsoft",
+      "Privacidade absoluta: sem logs de IP ou rastreamento",
+      "Resumos de IA disponíveis sem enviar dados de perfil"
+    ],
+    "contras": [
+      "Relevância para buscas muito nichadas ainda em aprimoramento"
+    ],
+    "modeloNegocio": "Gratuito / Premium sem anúncios",
+    "isRecomendado": true,
+    "privacyScore": 6
+  },
+  {
+    "id": 9,
+    "nomeProprietario": "Google Search / Bing",
+    "nomeAlternativa": "Kagi Search",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://assets.kagi.com/v2/apple-touch-icon.png",
+    "descricao": "Buscador premium pago totalmente sem anúncios e sem rastreamento, focado em qualidade de resultados e personalização avançada.",
+    "link": "https://kagi.com",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Modelo de negócio baseado em assinaturas: zero anúncios",
+      "Resultados personalizáveis com lenses, blocos e pesos",
+      "Alta qualidade de relevância para buscas técnicas"
+    ],
+    "contras": [
+      "Plano gratuito limitado a 100 buscas por mês",
+      "Código do servidor é proprietário"
+    ],
+    "modeloNegocio": "Assinatura paga / Sem anúncios",
+    "isRecomendado": false,
+    "privacyScore": 5
+  },
+  {
+    "id": 10,
+    "nomeProprietario": "Google Search / Perplexity AI",
+    "nomeAlternativa": "Lumo by Proton",
+    "categoria": "Inteligência Artificial",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proton-lumo.webp",
+    "descricao": "Assistente de pesquisa inteligente e conversacional da Proton. Responde a perguntas complexas de forma direta, realizando buscas na web e resumindo informações com privacidade integrada de ponta a ponta, sem rastrear seu histórico de busca ou IP.",
+    "link": "https://lumo.proton.me",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Desenvolvido pela Proton com foco em privacidade absoluta",
+      "IA integrada para respostas contextuais sem perfil de usuário",
+      "Integração com o ecossistema Proton (Drive, Mail, VPN)"
+    ],
+    "contras": [
+      "Produto novo ainda em fase de desenvolvimento",
+      "Exige conta Proton para uso completo"
+    ],
+    "modeloNegocio": "Freemium / Integrado ao Proton",
+    "isRecomendado": false,
+    "privacyScore": 6
+  },
+  {
+    "id": 11,
+    "nomeProprietario": "Gmail / Outlook / Yahoo Mail",
+    "nomeAlternativa": "Proton Mail",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/proton-mail.png",
+    "descricao": "E-mail suíço com criptografia de conhecimento zero, sediado sob lei estrita de privacidade, sem coleta de dados pessoais.",
+    "link": "https://proton.me/mail",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "E-mails criptografados com conhecimento zero nos servidores",
+      "Lei suíça de privacidade protege seus dados",
+      "Sem coleta de dados pessoais no cadastro gratuito"
+    ],
+    "contras": [
+      "Busca interna limitada pela criptografia dos e-mails",
+      "Apenas 1 GB no plano gratuito"
+    ],
+    "modeloNegocio": "Freemium / Planos premium",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 12,
+    "nomeProprietario": "Gmail / Outlook / Yahoo Mail",
+    "nomeAlternativa": "Tuta",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://f-droid.org/repo/de.tutao.tutanota/en-US/icon_aE3ARq5Qudp3i6Ty-5dNtqpE3xtLwyfoWVviXshG_9o=.png",
+    "descricao": "E-mail e calendário com criptografia automática de ponta a ponta em assuntos, corpos e anexos, sem exigir dados pessoais.",
+    "link": "https://tuta.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografa automaticamente assunto, corpo e anexos",
+      "Sem necessidade de número de telefone no cadastro",
+      "Clientes nativos auditados e de código aberto"
+    ],
+    "contras": [
+      "Incompatível com clientes externos via IMAP/SMTP",
+      "Busca interna mais lenta por indexação local criptografada"
+    ],
+    "modeloNegocio": "Freemium / Assinaturas premium",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 13,
+    "nomeProprietario": "Microsoft Outlook / Apple Mail / Windows Mail",
+    "nomeAlternativa": "Thunderbird",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/thunderbird.png",
+    "descricao": "Cliente de e-mail open-source da Mozilla com múltiplas contas, calendário, feeds RSS e criptografia OpenPGP nativa integrada.",
+    "link": "https://www.thunderbird.net",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Suporte a OpenPGP integrado e fácil de usar",
+      "Gerenciador de tarefas, RSS e chat integrados",
+      "Altamente extensível com temas e complementos"
+    ],
+    "contras": [
+      "Consome bastante RAM com muitas contas abertas",
+      "Sem app nativo oficial para iOS"
+    ],
+    "modeloNegocio": "Gratuito / Mantido por Doações",
+    "isRecomendado": true,
+    "privacyScore": 7
+  },
+  {
+    "id": 14,
+    "nomeProprietario": "Thunderbird / Microsoft Outlook",
+    "nomeAlternativa": "Betterbird",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/86832723?v=4",
+    "descricao": "Fork do Thunderbird com bugs corrigidos, melhorias de interface e funcionalidades extras não presentes na versão oficial.",
+    "link": "https://www.betterbird.eu",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Todas as vantagens do Thunderbird com melhorias adicionais",
+      "Correções de bugs não mergeadas ainda no Thunderbird oficial",
+      "Notificações de e-mail mais avançadas e configuráveis"
+    ],
+    "contras": [
+      "Comunidade menor que o Thunderbird oficial",
+      "Ritmo de atualizações depende do projeto pai"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 7
+  },
+  {
+    "id": 15,
+    "nomeProprietario": "Microsoft Outlook / Gmail App / Spark",
+    "nomeAlternativa": "Mailspring",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqMISmzBMwgRlRYBelLkqNNVJpcUzOAAbiMxkQzO4sg&s=10",
+    "descricao": "Cliente de e-mail moderno com interface polida, suporte a múltiplas contas, busca rápida e integração com calendário.",
+    "link": "https://getmailspring.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Interface gráfica mais moderna entre os clientes open-source",
+      "Suporte a múltiplas contas IMAP/SMTP simultâneas",
+      "Busca instantânea em histórico completo de e-mails"
+    ],
+    "contras": [
+      "Recursos avançados (tradução, snooze) exigem conta Mailspring Pro",
+      "Baseado em Electron com consumo de RAM relativamente alto"
+    ],
+    "modeloNegocio": "Freemium / Plano Pro pago",
+    "isRecomendado": false,
+    "privacyScore": 6
+  },
+  {
+    "id": 16,
+    "nomeProprietario": "WhatsApp / Telegram / Messenger",
+    "nomeAlternativa": "Signal",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Android",
+      "iOS",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/signal.png",
+    "descricao": "Mensageiro com criptografia Signal Protocol, zero coleta de metadados e mantido por fundação sem fins lucrativos.",
+    "link": "https://signal.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia Signal Protocol de última geração",
+      "Zero coleta de metadados das mensagens",
+      "Mantido por fundação sem fins lucrativos"
+    ],
+    "contras": [
+      "Requer número de telefone para cadastro",
+      "Adoção menor exige convencer contatos a migrar"
+    ],
+    "modeloNegocio": "Doações / Sem fins lucrativos",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 17,
+    "nomeProprietario": "TeamViewer / AnyDesk / Chrome Remote Desktop",
+    "nomeAlternativa": "RustDesk",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/rustdesk.png",
+    "descricao": "Acesso remoto open-source e autohospedável, sem dependência de servidores de terceiros e com criptografia de ponta a ponta.",
+    "link": "https://rustdesk.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Totalmente autohospedável com servidor relay próprio",
+      "Código 100% aberto, sem backdoors ou telemetria",
+      "Alternativa gratuita completa ao TeamViewer"
+    ],
+    "contras": [
+      "Latência depende da qualidade do servidor relay usado",
+      "Configurar servidor próprio exige conhecimento técnico"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Pro comercial",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 18,
+    "nomeProprietario": "Twitter/X / Facebook / Instagram",
+    "nomeAlternativa": "Mastodon",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mastodon.png",
+    "descricao": "Rede social descentralizada e federeada via protocolo ActivityPub, sem algoritmos de manipulação, anúncios ou coleta de dados.",
+    "link": "https://joinmastodon.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Descentralizado: escolha ou hospede sua própria instância",
+      "Sem algoritmos de manipulação ou feed publicitário",
+      "Interoperável com toda a rede Fediverse"
+    ],
+    "contras": [
+      "Conceito de instâncias pode confundir usuários iniciantes",
+      "Descoberta de conteúdo menos intuitiva que redes centralizadas"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 19,
+    "nomeProprietario": "Reddit / Quora / Fóruns proprietários",
+    "nomeAlternativa": "Lemmy",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lemmy.png",
+    "descricao": "Agregador de links e fórum descentralizado do Fediverse, alternativa aberta ao Reddit sem anúncios ou algoritmos opacos.",
+    "link": "https://join-lemmy.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Federeado com o Fediverse, interopera com Mastodon",
+      "Sem anúncios, rastreadores ou algoritmos ocultos",
+      "Comunidades auto-gerenciadas por instância"
+    ],
+    "contras": [
+      "Comunidades menores que o Reddit ainda em crescimento",
+      "Moderação varia muito por instância"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 20,
+    "nomeProprietario": "Instagram / Flickr / 500px",
+    "nomeAlternativa": "Pixelfed",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pixelfed.png",
+    "descricao": "Rede social de fotos descentralizada e federeada, alternativa ao Instagram sem anúncios, algoritmos de engajamento e coleta de dados.",
+    "link": "https://pixelfed.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Sem anúncios ou algoritmos de engajamento manipulativo",
+      "Federeado com o Fediverse (segue contas do Mastodon)",
+      "Interface familiar similar ao Instagram clássico"
+    ],
+    "contras": [
+      "Base de usuários menor que redes centralizadas",
+      "Algumas instâncias têm limites de armazenamento de fotos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 21,
+    "nomeProprietario": "YouTube App Oficial para Android",
+    "nomeAlternativa": "NewPipe",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/NewPipelogo.svg",
+    "descricao": "App leve para Android que reproduz YouTube em segundo plano, baixa vídeos e bloqueia anúncios sem conta Google.",
+    "link": "https://newpipe.net",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Reprodução em segundo plano com tela desligada",
+      "Download de áudio e vídeo direto no celular",
+      "Zero rastreamento Google ou anúncios"
+    ],
+    "contras": [
+      "Sem sincronização com conta oficial do YouTube",
+      "Atualizações frequentes quando o YouTube muda APIs"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 22,
+    "nomeProprietario": "yt-dlp / Downloaders proprietários / Sites de download",
+    "nomeAlternativa": "Cobalt",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cobalt.png",
+    "descricao": "Ferramenta de download de mídia open-source sem anúncios, rastreadores ou paywall, suportando YouTube, TikTok, Twitch e mais.",
+    "link": "https://cobalt.tools",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suporta dezenas de plataformas (YouTube, TikTok, Instagram)",
+      "Sem anúncios, registro ou limites artificiais",
+      "API pública disponível para integração própria"
+    ],
+    "contras": [
+      "Instâncias públicas podem ter limites de velocidade",
+      "Uso sem restrições exige autohospedagem"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 23,
+    "nomeProprietario": "Windows Media Player / iTunes / GOM Player",
+    "nomeAlternativa": "VLC Media Player",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://articles-images.sftcdn.net/wp-content/uploads/sites/7/2012/10/vlc-media-player.png",
+    "descricao": "Player multimídia universal que reproduz praticamente qualquer formato de áudio e vídeo sem precisar instalar codecs adicionais.",
+    "link": "https://www.videolan.org/vlc/",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suporte a virtualmente todos os formatos de mídia existentes",
+      "Disponível em todas as plataformas principais",
+      "Sem anúncios, telemetria ou conta necessária"
+    ],
+    "contras": [
+      "Interface visual um pouco desatualizada",
+      "Blu-ray e alguns DRMs exigem licenças extras"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 24,
+    "nomeProprietario": "VLC Media Player / Windows Media Player",
+    "nomeAlternativa": "MPV",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/amALPhVB-adv-fQMXpWKkVpdZlR3sdCd5KnLMFZnZNKPJcNQE4xuGu9z0u-oj9vZh_7aCpKCUxYqNn4raxEI",
+    "descricao": "Player de vídeo minimalista e altamente configurável via scripts Lua, com suporte a shaders, upscaling por IA e HDR.",
+    "link": "https://mpv.io",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Altamente configurável via scripts e arquivos de configuração",
+      "Suporte a shaders personalizados e upscaling por IA",
+      "Interface minimalista sem distrações visuais"
+    ],
+    "contras": [
+      "Sem interface gráfica completa por padrão",
+      "Curva de aprendizado para personalização avançada"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 25,
+    "nomeProprietario": "YouTube Web / YouTube App Desktop",
+    "nomeAlternativa": "FreeTube",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/io/freetubeapp/FreeTube/9ea7f1b16cca69963d504938dd67bc0c/icons/128x128@2/io.freetubeapp.FreeTube.png",
+    "descricao": "Cliente desktop para YouTube sem anúncios, que não usa a API do Google e mantém assinaturas e histórico localmente.",
+    "link": "https://freetubeapp.io",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Sem anúncios e sem uso da API de rastreamento do Google",
+      "Assinaturas e histórico armazenados localmente",
+      "Interface polida e moderna similar ao YouTube"
+    ],
+    "contras": [
+      "Apenas para desktop, sem versão móvel oficial",
+      "Velocidade depende da instância Invidious configurada"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 26,
+    "nomeProprietario": "Plex / Emby / Netflix (biblioteca própria)",
+    "nomeAlternativa": "Jellyfin",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/jellyfin.png",
+    "descricao": "Servidor de mídia pessoal gratuito e open-source para organizar e transmitir filmes, séries e músicas na sua rede local.",
+    "link": "https://jellyfin.org",
+    "dificuldade": 4,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% gratuito sem nenhum recurso bloqueado por paywall",
+      "Streaming local e remoto com transcodificação de vídeo",
+      "Sem telemetria ou coleta de dados sobre seus arquivos"
+    ],
+    "contras": [
+      "Requer servidor dedicado para disponibilidade 24/7",
+      "Configuração inicial de metadados e bibliotecas leva tempo"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 27,
+    "nomeProprietario": "Adobe Audition / GarageBand / FL Studio",
+    "nomeAlternativa": "Audacity",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/audacity.png",
+    "descricao": "Editor de áudio gratuito multiplataforma para gravação, edição, masterização e exportação em múltiplos formatos.",
+    "link": "https://www.audacityteam.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Poderoso para edição, limpeza e masterização de áudio",
+      "Suporte a plugins VST e efeitos nativos de qualidade",
+      "Interface familiar e bem documentada"
+    ],
+    "contras": [
+      "Interface visual um pouco datada vs DAWs modernas",
+      "Não é uma DAW completa: sem suporte nativo a MIDI"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 28,
+    "nomeProprietario": "Adobe Premiere Pro / DaVinci Resolve",
+    "nomeAlternativa": "KDenLive",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/org/kde/kdenlive.desktop/a5b269625d9ed36795ef22a02b3024be/icons/128x128@2/org.kde.kdenlive.desktop.png",
+    "descricao": "Editor de vídeo não-linear open-source com timeline multi-faixas, efeitos, transições e exportação sem marca d'água.",
+    "link": "https://kdenlive.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Timeline multi-faixas profissional com efeitos e transições",
+      "Sem marca d'água ou limitações de exportação",
+      "Integração com FFmpeg para máxima compatibilidade de formatos"
+    ],
+    "contras": [
+      "Pode travar em projetos longos com hardware fraco",
+      "Menos efeitos avançados que DaVinci Resolve"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 29,
+    "nomeProprietario": "Adobe Premiere / CapCut / DaVinci Resolve",
+    "nomeAlternativa": "OpenCut",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://opencut.app/logos/opencut/symbol-light.svg",
+    "descricao": "Editor de vídeo open-source moderno e acessível, projetado como alternativa simplificada e privada ao CapCut e similares.",
+    "link": "https://opencut.app",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Interface moderna e intuitiva para edição rápida",
+      "Sem marca d'água, paywall ou conta obrigatória",
+      "Projeto em crescimento com comunidade ativa"
+    ],
+    "contras": [
+      "Projeto jovem com funcionalidades ainda em desenvolvimento",
+      "Menos recursos avançados que editores estabelecidos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 30,
+    "nomeProprietario": "Adobe Photoshop / Procreate",
+    "nomeAlternativa": "Krita",
+    "categoria": "Criatividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Calligrakrita-base.svg",
+    "descricao": "Aplicativo de pintura digital profissional open-source voltado para artistas e ilustradores, com animação e suporte a tablets.",
+    "link": "https://krita.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Ferramentas de pintura profissional com suporte a tablets",
+      "Animação frame-by-frame e gestão de camadas avançada",
+      "Desenvolvida com e para artistas digitais"
+    ],
+    "contras": [
+      "Menos otimizada para manipulação de fotos que o GIMP",
+      "Pode ser pesada em tablets Android mais antigos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 31,
+    "nomeProprietario": "Adobe Illustrator / Figma (vetores)",
+    "nomeAlternativa": "Inkscape",
+    "categoria": "Criatividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/120px-Inkscape_Logo.svg.png",
+    "descricao": "Editor de gráficos vetoriais open-source baseado no padrão SVG, com ferramentas profissionais de ilustração e design gráfico.",
+    "link": "https://inkscape.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Baseado no padrão aberto SVG para máxima compatibilidade",
+      "Ferramentas de nós, bezier e tipografia profissionais",
+      "Extensível via scripts Python para automação"
+    ],
+    "contras": [
+      "Interface mais complexa que editores vetoriais modernos",
+      "Performance lenta em arquivos SVG muito complexos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 32,
+    "nomeProprietario": "Autodesk Maya / Cinema 4D / 3ds Max",
+    "nomeAlternativa": "Blender",
+    "categoria": "Criatividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/blender.png",
+    "descricao": "Suite 3D completa e gratuita com modelagem, animação, simulação, renderização Cycles, compositing e edição de vídeo.",
+    "link": "https://www.blender.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suite 3D completa sem custo: modela, anima e renderiza",
+      "Renderizador Cycles com ray tracing e EEVEE em tempo real",
+      "Comunidade massiva com tutoriais, assets e add-ons"
+    ],
+    "contras": [
+      "Curva de aprendizado íngreme para iniciantes em 3D",
+      "Interface não intuitiva para quem vem de outros softwares 3D"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Fundação sem fins lucrativos",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 33,
+    "nomeProprietario": "Adobe Photoshop / Affinity Photo",
+    "nomeAlternativa": "GIMP",
+    "categoria": "Criatividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gimp.png",
+    "descricao": "Editor de imagens rasterizadas open-source com ferramentas de retoque fotográfico, compositing e manipulação profissional.",
+    "link": "https://www.gimp.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Ferramentas completas de edição fotográfica profissional",
+      "Suporte a scripts e plugins para automação de tarefas",
+      "Alternativa real ao Photoshop sem custo algum"
+    ],
+    "contras": [
+      "Interface diferente do Photoshop com curva de adaptação",
+      "Sem suporte nativo a espaço de cores CMYK"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 34,
+    "nomeProprietario": "Microsoft Office 365 / Google Workspace",
+    "nomeAlternativa": "LibreOffice",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://static.macupdate.com/products/35446/d/phpbxb0px-logo.png",
+    "descricao": "Suite de escritório completa e gratuita com processador de texto, planilhas, apresentações, banco de dados e editor de fórmulas.",
+    "link": "https://www.libreoffice.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suite completa: Writer, Calc, Impress, Draw, Base e Math",
+      "Compatibilidade com formatos .docx, .xlsx e .pptx",
+      "100% gratuito sem assinaturas ou planos premium"
+    ],
+    "contras": [
+      "Compatibilidade com documentos complexos do Office pode ser imperfeita",
+      "Interface menos polida que Microsoft Office ou Google Docs"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 35,
+    "nomeProprietario": "Microsoft Office 365 / Google Workspace",
+    "nomeAlternativa": "OnlyOffice",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/onlyoffice.png",
+    "descricao": "Suite de escritório com excelente compatibilidade com formatos Microsoft Office e versão colaborativa online autohospedável.",
+    "link": "https://www.onlyoffice.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Melhor compatibilidade com .docx/.xlsx entre suítes open-source",
+      "Edição colaborativa em tempo real autohospedável",
+      "Interface próxima ao Microsoft Office para migração suave"
+    ],
+    "contras": [
+      "Versão colaborativa em nuvem oficial exige plano pago",
+      "Algumas funcionalidades avançadas do Office ainda não suportadas"
+    ],
+    "modeloNegocio": "Freemium / Open-core",
+    "isRecomendado": false,
+    "privacyScore": 7
+  },
+  {
+    "id": 36,
+    "nomeProprietario": "Notion / Evernote / Microsoft OneNote",
+    "nomeAlternativa": "Obsidian",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/obsidian.png",
+    "descricao": "Base de conhecimento local-first em Markdown com links bidirecionais, grafo interativo de ideias e ecossistema massivo de plugins.",
+    "link": "https://obsidian.md",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Dados em arquivos Markdown locais que você controla",
+      "Grafo interativo conectando todas suas notas por links",
+      "Ecossistema massivo de plugins comunitários"
+    ],
+    "contras": [
+      "Núcleo da aplicação é código fechado (plugins são abertos)",
+      "Sincronização automática entre dispositivos é paga"
+    ],
+    "modeloNegocio": "Gratuito para uso pessoal / Sync pago",
+    "isRecomendado": true,
+    "privacyScore": 5
+  },
+  {
+    "id": 37,
+    "nomeProprietario": "Evernote / Microsoft OneNote / Google Keep",
+    "nomeAlternativa": "Joplin",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/joplin.png",
+    "descricao": "App de notas e tarefas open-source com criptografia ponta a ponta e sincronização com Nextcloud, Dropbox ou WebDAV próprio.",
+    "link": "https://joplinapp.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Criptografia E2E em notas sincronizadas na nuvem",
+      "Sincroniza com Nextcloud, WebDAV, S3 e muito mais",
+      "Importação de notas do Evernote sem perdas"
+    ],
+    "contras": [
+      "Interface menos moderna que Obsidian ou Notion",
+      "Sincronização em tempo real às vezes exige cliques manuais"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 38,
+    "nomeProprietario": "Evernote / Notion / Google Keep",
+    "nomeAlternativa": "Notesnook",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/notesnook.png",
+    "descricao": "App de notas privado com criptografia de conhecimento zero em todas as notas, interface moderna e sincronização segura.",
+    "link": "https://notesnook.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia de conhecimento zero em todas as notas",
+      "Interface moderna e amigável para novos usuários",
+      "Suporte a tags, bloqueio de notas e anexos"
+    ],
+    "contras": [
+      "Temas e recursos avançados exigem assinatura",
+      "Plano gratuito limitado a 3 dispositivos"
+    ],
+    "modeloNegocio": "Freemium / Assinatura Premium",
+    "isRecomendado": false,
+    "privacyScore": 7
+  },
+  {
+    "id": 39,
+    "nomeProprietario": "Adobe Acrobat / SmallPDF / iLovePDF",
+    "nomeAlternativa": "Stirling-PDF",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/docs/stirling.png",
+    "descricao": "Suite PDF autohospedável com +50 ferramentas: mesclar, dividir, comprimir, converter, assinar e editar sem enviar arquivos a terceiros.",
+    "link": "https://stirlingpdf.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Mais de 50 ferramentas PDF sem enviar arquivos para terceiros",
+      "Autohospedável com Docker em poucos minutos",
+      "Sem limites de tamanho de arquivo ou marca d'água"
+    ],
+    "contras": [
+      "Autohospedagem completa requer conhecimento de Docker",
+      "Instâncias públicas podem ter limites de upload"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 40,
+    "nomeProprietario": "Amazon Kindle App / Adobe Digital Editions",
+    "nomeAlternativa": "Calibre",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre.png",
+    "descricao": "Gerenciador de e-books e biblioteca digital com conversão de formatos, edição de metadados, servidor local e leitor integrado.",
+    "link": "https://calibre-ebook.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Conversão entre praticamente todos os formatos de e-book",
+      "Servidor local para sincronizar com Kindle e outros leitores",
+      "Editor de metadados e capas integrado"
+    ],
+    "contras": [
+      "Interface visual funcional mas visualmente datada",
+      "E-books com DRM não podem ser processados sem plugins externos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 41,
+    "nomeProprietario": "Lightshot / Snipping Tool / Snagit",
+    "nomeAlternativa": "ShareX",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/5548736?s=280&v=4",
+    "descricao": "Ferramenta de captura de tela avançada para Windows com anotações, OCR, gravação de tela e upload automático configurável.",
+    "link": "https://getsharex.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Captura de região, janela, scroll e gravação de tela",
+      "Fluxo de trabalho pós-captura totalmente automatizável",
+      "Upload direto para dezenas de serviços configuráveis"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Muitas opções podem ser complexas inicialmente"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 42,
+    "nomeProprietario": "Lightshot / Gyazo / Screenshot nativo",
+    "nomeAlternativa": "Flameshot",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/org/flameshot/Flameshot/01255509263c27292ce694be288babe0/icons/128x128@2/org.flameshot.Flameshot.png",
+    "descricao": "Ferramenta de captura de tela multiplataforma com anotações, destaques e setas aplicadas diretamente na captura.",
+    "link": "https://flameshot.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Anotações em tempo real direto na captura",
+      "Multiplataforma com comportamento consistente",
+      "Integração com upload para Imgur e outros serviços"
+    ],
+    "contras": [
+      "Sem suporte a gravação de vídeo ou GIF",
+      "Configuração em alguns ambientes Linux pode ser manual"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 43,
+    "nomeProprietario": "Miro / Figma (diagramas) / Lucidchart",
+    "nomeAlternativa": "Excalidraw",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw.png",
+    "descricao": "Quadro branco virtual colaborativo open-source com estilo desenhado à mão, perfeito para diagramas e brainstorming rápido.",
+    "link": "https://excalidraw.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Sem login obrigatório para uso básico imediato",
+      "Colaboração em tempo real com link compartilhável",
+      "Estilo visual único desenhado à mão"
+    ],
+    "contras": [
+      "Sem persistência nativa de dados sem conta ou integração",
+      "Recursos avançados de formatação são limitados"
+    ],
+    "modeloNegocio": "Gratuito / Open-core (Plus pago)",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 44,
+    "nomeProprietario": "Notion / Confluence / Coda",
+    "nomeAlternativa": "AFFiNE",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://affine.pro/affine-white.svg",
+    "descricao": "Workspace all-in-one open-source que combina notas, quadro branco e banco de dados em um só lugar, com dados locais.",
+    "link": "https://affine.pro",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Combina notas, whiteboard e banco de dados em um só app",
+      "Local-first: dados ficam no seu dispositivo por padrão",
+      "Alternativa open-source ao Notion com mais privacidade"
+    ],
+    "contras": [
+      "Projeto em desenvolvimento com possíveis instabilidades",
+      "Sincronização em nuvem ainda em fase beta"
+    ],
+    "modeloNegocio": "Gratuito / Open-core / Cloud pago",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 45,
+    "nomeProprietario": "Notion / Roam Research / Obsidian",
+    "nomeAlternativa": "Anytype",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/anytype.png",
+    "descricao": "App de notas local-first com rede P2P própria para sincronização E2E, blocos relacionais avançados e sem servidores centrais.",
+    "link": "https://anytype.io",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Sincronização E2E sem servidor central via rede P2P",
+      "Blocos relacionais avançados similares ao Notion",
+      "Código aberto com modelo local-first por padrão"
+    ],
+    "contras": [
+      "Ainda em desenvolvimento, pode faltar recursos do Notion",
+      "Performance da rede P2P depende da conexão do usuário"
+    ],
+    "modeloNegocio": "Gratuito / Planos pagos futuros",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 46,
+    "nomeProprietario": "Grammarly / Microsoft Editor / LanguageTool Pro",
+    "nomeAlternativa": "LanguageTool",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://languagetool.org/favicon.ico",
+    "descricao": "Verificador gramatical e de estilo open-source com suporte a mais de 30 idiomas, incluindo português brasileiro e europeu.",
+    "link": "https://languagetool.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suporte nativo ao português brasileiro e europeu",
+      "Pode ser autohospedado para privacidade total",
+      "Extensões para navegadores e integração com LibreOffice"
+    ],
+    "contras": [
+      "Regras avançadas de estilo exigem plano Premium",
+      "Limite de caracteres por requisição no plano gratuito"
+    ],
+    "modeloNegocio": "Freemium / Plano Premium",
+    "isRecomendado": false,
+    "privacyScore": 7
+  },
+  {
+    "id": 47,
+    "nomeProprietario": "Google Docs / Microsoft Office Online",
+    "nomeAlternativa": "Etherpad",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/etherpad.png",
+    "descricao": "Editor de texto colaborativo em tempo real, open-source e ultra leve, sem conta obrigatória e facilmente autohospedável.",
+    "link": "https://etherpad.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Edição colaborativa sem conta necessária",
+      "Histórico de revisões com autores identificados por cores",
+      "Fácil de hospedar em servidor próprio"
+    ],
+    "contras": [
+      "Sem formatação avançada de layout ou tabelas",
+      "Armazenamento temporário sem servidor configurado"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 48,
+    "nomeProprietario": "Adobe Illustrator / Affinity Designer / CorelDRAW",
+    "nomeAlternativa": "Graphite",
+    "categoria": "Design Gráfico",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/68179154?v=4",
+    "descricao": "Editor de gráficos vetoriais e motor de animação gratuito e de código aberto, com foco em privacidade e recursos avançados para design profissional.",
+    "link": "https://graphite.art/",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Editor vetorial completo com recursos avançados",
+      "Fluxo de trabalho processual para design gráfico",
+      "Camadas baseadas em nós",
+      "Para sempre gratuito e de código aberto"
+    ],
+    "contras": [
+      "Ecossistema ainda em desenvolvimento",
+      "Menos funcionalidades que os softwares proprietários por enquanto"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 49,
+    "nomeProprietario": "Google Drive / OneDrive / Dropbox",
+    "nomeAlternativa": "Nextcloud",
+    "categoria": "Infraestrutura",
+    "plataformas": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nextcloud.png",
+    "descricao": "Suite completa de colaboração autohospedável com arquivos, calendários, contatos, suíte de escritório e apps integrados.",
+    "link": "https://nextcloud.com",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Controle total sobre seus dados no seu próprio servidor",
+      "Suite completa com arquivos, calendário, contatos e Office",
+      "Ecossistema massivo de apps e extensões"
+    ],
+    "contras": [
+      "Configuração e manutenção de servidor exigem conhecimento técnico",
+      "Custos de armazenamento dependem do provedor de VPS"
+    ],
+    "modeloNegocio": "Open-core / Gratuito autohospedado",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 50,
+    "nomeProprietario": "Google Drive / Dropbox / OneDrive",
+    "nomeAlternativa": "Proton Drive",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/proton-drive.png",
+    "descricao": "Armazenamento em nuvem suíço com criptografia E2E nativa incluindo nomes de arquivos, metadados e estrutura de pastas.",
+    "link": "https://proton.me/drive",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia E2E inclui nomes de arquivos e pastas",
+      "Lei suíça de privacidade estrita protege seus dados",
+      "Integrado ao ecossistema Proton (Mail, VPN, Pass)"
+    ],
+    "contras": [
+      "Plano gratuito limitado a 1 GB de armazenamento",
+      "Colaboração em tempo real ainda em desenvolvimento"
+    ],
+    "modeloNegocio": "Freemium / Planos premium",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 51,
+    "nomeProprietario": "Google Drive / Dropbox / OneDrive",
+    "nomeAlternativa": "Filen",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/filen.png",
+    "descricao": "Armazenamento em nuvem de conhecimento zero sediado na Alemanha, com 10 GB gratuitos e planos de pagamento único vitalício.",
+    "link": "https://filen.io",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia de conhecimento zero antes de qualquer upload",
+      "10 GB gratuitos e opção de licença vitalícia única",
+      "Sediado na Alemanha sob leis de privacidade europeias"
+    ],
+    "contras": [
+      "Sem suite colaborativa de edição de documentos",
+      "Ecossistema menor comparado ao Nextcloud"
+    ],
+    "modeloNegocio": "Freemium / Vitalício / Assinaturas",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 52,
+    "nomeProprietario": "Google Drive / Dropbox / iCloud",
+    "nomeAlternativa": "Syncthing",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/syncthing.png",
+    "descricao": "Sincronização peer-to-peer criptografada entre seus dispositivos sem nenhum servidor de nuvem ou intermediário externo.",
+    "link": "https://syncthing.net",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Dados nunca passam por servidores de terceiros",
+      "Sincronização direta e criptografada entre dispositivos",
+      "Sem limites de tamanho ou quantidade de arquivos"
+    ],
+    "contras": [
+      "Dispositivos precisam estar ligados ao mesmo tempo para sincronizar",
+      "Interface web pode ser confusa na configuração inicial"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 53,
+    "nomeProprietario": "Apple AirDrop / SHAREit / WeTransfer",
+    "nomeAlternativa": "LocalSend",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://imgproxy.flathub.org/insecure/dpr:1/f:webp/q:100/rs:fit:128:128/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9vcmcvbG9jYWxzZW5kL2xvY2Fsc2VuZF9hcHAvY2EwZjA1OGE1MGEyNTkzZWQwNzNjNjkzZDZlM2Y2MmQvaWNvbnMvMTI4eDEyOC9vcmcubG9jYWxzZW5kLmxvY2Fsc2VuZF9hcHAucG5n",
+    "descricao": "Compartilhamento de arquivos multiplataforma via Wi-Fi local sem internet, sem servidores e sem pareamento Bluetooth.",
+    "link": "https://localsend.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Transferência rápida sem dependência de internet",
+      "Funciona em todas as plataformas principais",
+      "Sem rastreadores, logs ou servidores de relay"
+    ],
+    "contras": [
+      "Ambos os dispositivos precisam estar na mesma rede Wi-Fi",
+      "Velocidade depende da qualidade do roteador local"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 54,
+    "nomeProprietario": "Google Photos / iCloud Photos / Amazon Photos",
+    "nomeAlternativa": "Immich",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/immich.png",
+    "descricao": "Substituto autohospedado do Google Photos com backup automático, reconhecimento facial e álbuns inteligentes no seu servidor.",
+    "link": "https://immich.app",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Backup automático de fotos no seu próprio servidor",
+      "Reconhecimento facial, busca por objetos e álbuns inteligentes",
+      "Interface moderna idêntica ao Google Photos"
+    ],
+    "contras": [
+      "Requer servidor com Docker para funcionamento",
+      "Em desenvolvimento ativo com atualizações frequentes"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 55,
+    "nomeProprietario": "Google Photos / iCloud / Amazon Photos",
+    "nomeAlternativa": "Ente Photos",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://ente.com/static/9c3cebd070d572781794e77f24c741ef/c08de/second-green-section-e.webp",
+    "descricao": "App de fotos com criptografia de ponta a ponta e conhecimento zero. Nem a Ente pode ver suas fotos. 1 GB gratuito.",
+    "link": "https://ente.io",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia E2E completa: nem a Ente acessa suas fotos",
+      "Compartilhamento de álbuns criptografado entre usuários",
+      "Open-source e auditável publicamente"
+    ],
+    "contras": [
+      "Sem busca por IA ou reconhecimento facial (por privacidade)",
+      "Menos espaço gratuito que Google Photos"
+    ],
+    "modeloNegocio": "Freemium / Planos de assinatura",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 56,
+    "nomeProprietario": "iCloud Keychain / Google Password Manager / OneDrive",
+    "nomeAlternativa": "Ente Locker",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://f-droid.org/repo/io.ente.locker.fdroid/en-US/icon_ZNzPNku8n5D9ooPkBneWLgAMDrtz8f3YguifwJsqQlQ=.png",
+    "descricao": "Cofre seguro da Ente para documentos e arquivos sensíveis com criptografia de conhecimento zero e infraestrutura auditada.",
+    "link": "https://ente.io/locker",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia E2E em todos os itens armazenados",
+      "Mesma infraestrutura confiável e auditada do Ente Photos",
+      "Interface simples para armazenar documentos sensíveis"
+    ],
+    "contras": [
+      "Produto relativamente novo em desenvolvimento",
+      "Menos funcionalidades que gerenciadores de senhas completos"
+    ],
+    "modeloNegocio": "Freemium / Integrado ao Ente",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 57,
+    "nomeProprietario": "Google Drive / Dropbox / OneDrive",
+    "nomeAlternativa": "MEGA",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://mega.io/pt-br/wp-content/themes/megapages/megalib/icons/logos/mega.svg",
+    "descricao": "Armazenamento em nuvem com 20 GB gratuitos, criptografia do lado do cliente e clientes multiplataforma para sincronização.",
+    "link": "https://mega.io",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "20 GB gratuitos — um dos maiores planos gratuitos de nuvem",
+      "Criptografia do lado do cliente antes de qualquer upload",
+      "Clientes desktop e mobile com sincronização automática"
+    ],
+    "contras": [
+      "Código do servidor é fechado e proprietário",
+      "Conta pode ser bloqueada por uso intenso do plano gratuito"
+    ],
+    "modeloNegocio": "Freemium / Planos pagos",
+    "isRecomendado": false,
+    "privacyScore": 4
+  },
+  {
+    "id": 58,
+    "nomeProprietario": "WeTransfer / AirDrop / Google Drive compartilhado",
+    "nomeAlternativa": "Blip Transfer",
+    "categoria": "Armazenamento",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://blip.net/favicon.ico",
+    "descricao": "Transferência de arquivos peer-to-peer direta entre navegadores sem uploads para servidores, via link temporário seguro.",
+    "link": "https://blip.net",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Transferência P2P direta sem armazenar arquivos em servidores",
+      "Sem limite de tamanho de arquivo (limitado pela conexão)",
+      "Sem conta, registro ou rastreamento"
+    ],
+    "contras": [
+      "Ambos os lados precisam estar online simultaneamente",
+      "Velocidade limitada pela menor conexão entre os peers"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 59,
+    "nomeProprietario": "LastPass / 1Password / Chrome Passwords",
+    "nomeAlternativa": "Bitwarden",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bitwarden.png",
+    "descricao": "Gerenciador de senhas open-source com criptografia de conhecimento zero e sincronização gratuita ilimitada entre dispositivos.",
+    "link": "https://bitwarden.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Sincronização gratuita ilimitada em todos os dispositivos",
+      "Auditado por empresas de segurança independentes"
+    ],
+    "contras": [
+      "Interface funcional mas menos refinada que rivais pagos",
+      "Compartilhamento avançado para equipes exige plano pago"
+    ],
+    "modeloNegocio": "Freemium / Licença paga acessível",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 60,
+    "nomeProprietario": "1Password / LastPass / Dashlane",
+    "nomeAlternativa": "KeePassXC",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/keepassxc.png",
+    "descricao": "Gerenciador de senhas 100% offline com banco de dados criptografado localmente, sem servidores, sem nuvem envolvida.",
+    "link": "https://keepassxc.org",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% local: nenhum dado vai para nuvem ou servidores",
+      "Suporte a chaves físicas YubiKey para desbloqueio",
+      "Totalmente gratuito sem planos premium"
+    ],
+    "contras": [
+      "Sincronização entre dispositivos requer configuração manual",
+      "Curva de aprendizado maior para usuários leigos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 61,
+    "nomeProprietario": "LastPass / 1Password / Dashlane",
+    "nomeAlternativa": "Proton Pass",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/me/proton/Pass/346e2084a315fb5c5530cbfd32661f2f/icons/128x128@2/me.proton.Pass.png",
+    "descricao": "Gerenciador de senhas da Proton com criptografia E2E, gerador de aliases de e-mail integrado e cofre de itens sensíveis.",
+    "link": "https://proton.me/pass",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Criptografia E2E com conhecimento zero pela Proton",
+      "Integrado ao ecossistema Proton (Mail, Drive, VPN)"
+    ],
+    "contras": [
+      "Recursos avançados de cofre seguro exigem Proton Pass Plus",
+      "Auditoria de segurança independente ainda em andamento"
+    ],
+    "modeloNegocio": "Freemium / Integrado Proton",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 62,
+    "nomeProprietario": "ExpressVPN / NordVPN / Surfshark",
+    "nomeAlternativa": "Mullvad VPN",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mullvad.png",
+    "descricao": "VPN com cadastro 100% anônimo sem e-mail, aceita pagamento em dinheiro físico e Monero, sem logs e auditada publicamente.",
+    "link": "https://mullvad.net",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Sem logs de tráfego, auditado publicamente",
+      "Aceita dinheiro físico enviado pelo correio, Bitcoin e Monero"
+    ],
+    "contras": [
+      "Sem plano gratuito ou período de teste",
+      "Sem servidores otimizados para streaming de vídeo regional"
+    ],
+    "modeloNegocio": "Flat €5/mês sem desconto por prazo",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 63,
+    "nomeProprietario": "ExpressVPN / NordVPN / CyberGhost",
+    "nomeAlternativa": "ProtonVPN",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://dl.flathub.org/media/com/protonvpn/www/6b886dba20e20fcd455f33b74731fce6/icons/128x128@2/com.protonvpn.www.png",
+    "descricao": "VPN suíça open-source com plano gratuito ilimitado em velocidade e dados, sem logs e auditada por terceiros independentes.",
+    "link": "https://protonvpn.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Código aberto e auditado por empresas independentes",
+      "Sediada na Suíça com política rigorosa de zero logs"
+    ],
+    "contras": [
+      "Plano gratuito limitado a poucos servidores e países",
+      "Velocidade no plano gratuito inferior ao premium"
+    ],
+    "modeloNegocio": "Freemium / Planos pagos",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 64,
+    "nomeProprietario": "Google Authenticator / Microsoft Authenticator",
+    "nomeAlternativa": "Aegis Authenticator",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://f-droid.org/repo/com.beemdevelopment.aegis/en-US/icon_C951ZFTL5UuK5VK6KaIOnVy5NNb0Wqe8asl4v1fSXLI=.png",
+    "descricao": "Gerenciador de 2FA open-source para Android com backups criptografados locais, desbloqueio por biometria e zero rede.",
+    "link": "https://getaegis.app",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Backups criptografados em formato aberto localmente",
+      "Zero conexões de rede ou telemetria integrada",
+      "Desbloqueio por biometria ou PIN seguro"
+    ],
+    "contras": [
+      "Disponível apenas para Android",
+      "Sincronização entre dispositivos exige gerenciar backups manualmente"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 65,
+    "nomeProprietario": "Google Authenticator / Twilio Authy",
+    "nomeAlternativa": "Ente Auth",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ente-auth.png",
+    "descricao": "Autenticador 2FA multiplataforma open-source com sincronização em nuvem criptografada E2E, disponível em todos os dispositivos.",
+    "link": "https://ente.io/auth",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Sincronização E2E entre todos os dispositivos",
+      "Interface moderna com exportação simples de tokens",
+      "Open-source e auditável publicamente"
+    ],
+    "contras": [
+      "Exige criar conta Ente para usar a sincronização em nuvem"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 66,
+    "nomeProprietario": "Google Authenticator / Twilio Authy",
+    "nomeAlternativa": "Proton Authenticator",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/proton-authenticator-icon.png",
+    "descricao": "Autenticador 2FA da Proton com sincronização criptografada E2E, integrado ao Proton Pass para gerenciamento unificado.",
+    "link": "https://proton.me/pass/authenticator",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Integrado ao Proton Pass para gestão unificada",
+      "Sincronização criptografada E2E entre dispositivos",
+      "Interface limpa e moderna"
+    ],
+    "contras": [
+      "Requer conta Proton para sincronização",
+      "Menos funcionalidades que Aegis ou Ente Auth"
+    ],
+    "modeloNegocio": "Freemium / Integrado Proton",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 67,
+    "nomeProprietario": "Criptografia de nuvem comercial / BitLocker",
+    "nomeAlternativa": "Cryptomator",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cryptomator.png",
+    "descricao": "Criptografa arquivos localmente antes de enviá-los para qualquer nuvem (Drive, Dropbox) via cofres virtuais transparentes.",
+    "link": "https://cryptomator.org",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Funciona por cima de qualquer provedor de nuvem existente",
+      "Criptografa cada arquivo individualmente de forma transparente",
+      "Desktop 100% gratuito e open-source"
+    ],
+    "contras": [
+      "Apps móveis são pagos para financiar o desenvolvimento",
+      "Exige entender o conceito de cofres virtuais montados"
+    ],
+    "modeloNegocio": "Código aberto (Desktop grátis / Mobile pago)",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 68,
+    "nomeProprietario": "1Password / LastPass / KeePassXC",
+    "nomeAlternativa": "KeePassDX",
+    "categoria": "Segurança",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/Hcd9Ioqc6Izc76mbXmZFiyrHXJfl0pO0n3GaU5OSKNlkhWHE5TPnHedpW_sbmseGYBLfGboVqAO4MI05YTiZ",
+    "descricao": "Gerenciador de senhas KeePass moderno para Android com preenchimento automático, teclado seguro e arquivos .kdbx offline.",
+    "link": "https://www.keepassdx.com",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% offline com criptografia forte em arquivos .kdbx",
+      "Teclado virtual seguro integrado contra keyloggers",
+      "Sem anúncios, rastreadores ou permissões de internet"
+    ],
+    "contras": [
+      "Sincronização entre dispositivos requer app adicional de nuvem",
+      "Disponível apenas para Android"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 69,
+    "nomeProprietario": "Google DNS / Cloudflare DNS / ISP DNS",
+    "nomeAlternativa": "NextDNS",
+    "categoria": "Rede & DNS",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nextdns.png",
+    "descricao": "Firewall DNS na nuvem altamente configurável que bloqueia anúncios, rastreadores e malware em todo o sistema operacional.",
+    "link": "https://nextdns.io",
+    "dificuldade": 4,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Bloqueio de anúncios a nível de rede em todos os dispositivos",
+      "Painel com estatísticas de bloqueio em tempo real",
+      "Suporte a DNS-over-HTTPS e DNS-over-TLS"
+    ],
+    "contras": [
+      "Servidor centralizado (foco em privacidade, mas não descentralizado)",
+      "Plano gratuito com limite de 300.000 requisições/mês"
+    ],
+    "modeloNegocio": "Freemium / Assinatura anual acessível",
+    "isRecomendado": true,
+    "privacyScore": 5
+  },
+  {
+    "id": 70,
+    "nomeProprietario": "Roteadores padrão / DNS de provedores de internet",
+    "nomeAlternativa": "Pi-hole",
+    "categoria": "Rede & DNS",
+    "plataformas": [
+      "Linux",
+      "macOS",
+      "Windows"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pi-hole.png",
+    "descricao": "Bloqueador de anúncios a nível de rede local open-source que protege todos os dispositivos da casa sem instalar nada neles.",
+    "link": "https://pi-hole.net",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Bloqueia anúncios em TVs, celulares e IoT sem instalar nada",
+      "100% local sem dependência de servidores externos",
+      "Painel de estatísticas detalhado e bonito"
+    ],
+    "contras": [
+      "Requer hardware dedicado 24/7 (Raspberry Pi ou servidor)",
+      "Configuração de DNS no roteador pode ser complexa"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 71,
+    "nomeProprietario": "Pi-hole / Roteadores padrão de internet",
+    "nomeAlternativa": "AdGuard Home",
+    "categoria": "Rede & DNS",
+    "plataformas": [
+      "Linux",
+      "macOS",
+      "Windows"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/adguard-home.png",
+    "descricao": "Servidor DNS open-source para bloquear anúncios, rastreadores e aplicar controle parental a nível de rede local doméstica.",
+    "link": "https://github.com/AdguardTeam/AdGuardHome",
+    "dificuldade": 4,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suporte nativo a DoH, DoT e DoQ com configuração simples",
+      "Controle parental e bloqueio por categorias integrado",
+      "Binário único leve rodando em Docker ou servidor local"
+    ],
+    "contras": [
+      "Requer máquina local ou VPS dedicada operando 24/7",
+      "Interface de estatísticas pode consumir recursos acumulados"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 72,
+    "nomeProprietario": "Firewalls padrão de SO / Telemetria do Windows",
+    "nomeAlternativa": "Portmaster",
+    "categoria": "Rede & DNS",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://safing.io/assets/icons/android-icon-192x192.png",
+    "descricao": "Firewall de aplicações open-source que monitora e bloqueia conexões individuais de cada app, impedindo envio de telemetria.",
+    "link": "https://safing.io",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Bloqueia telemetria automática do Windows por aplicativo",
+      "Monitor de conexões em tempo real por processo",
+      "Rede SPN integrada para privacidade de tráfego extra"
+    ],
+    "contras": [
+      "Pode bloquear conexões legítimas de jogos e softwares",
+      "Consumo de CPU e RAM elevado durante picos de rede"
+    ],
+    "modeloNegocio": "Código aberto / Rede SPN comercial opcional",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 73,
+    "nomeProprietario": "DNS padrão do Android / DNS privado do sistema",
+    "nomeAlternativa": "RethinkDNS",
+    "categoria": "Rede & DNS",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://f-droid.org/repo/com.celzero.bravedns/en-US/icon_1LYCbwQOGxYH9GDQZoFTraB2-nClFIEhkveS67mTONQ=.png",
+    "descricao": "Firewall DNS e de apps para Android com bloqueio de anúncios, DNS-over-HTTPS e monitoramento de conexões por aplicativo.",
+    "link": "https://rethinkdns.com",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Firewall por app sem necessidade de root no Android",
+      "DNS-over-HTTPS com listas de bloqueio personalizadas",
+      "Monitoramento detalhado de conexões por aplicativo"
+    ],
+    "contras": [
+      "Disponível apenas para Android",
+      "Configuração de listas e regras exige atenção inicial"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 78,
+    "nomeProprietario": "Google Play Store",
+    "nomeAlternativa": "F-Droid",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/f-droid.png",
+    "descricao": "Repositório de apps open-source (FOSS) para Android sem conta, sem rastreadores e com aviso transparente de anti-recursos.",
+    "link": "https://f-droid.org",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Todos os apps são 100% livres de rastreadores proprietários",
+      "Sem e-mail ou conta para efetuar qualquer download",
+      "Aviso transparente sobre anti-recursos e telemetria"
+    ],
+    "contras": [
+      "Catálogo menor que a Google Play Store",
+      "Instalação inicial exige autorizar fontes desconhecidas"
+    ],
+    "modeloNegocio": "Gratuito / Mantido por Doações",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 79,
+    "nomeProprietario": "Google Play Store client oficial",
+    "nomeAlternativa": "Aurora Store",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://img.utdstc.com/icon/016/41f/01641f1a3a23245e24f1b2ca82eeb2375e08620497879455d94a1faea1b2f6c1:600",
+    "descricao": "Cliente open-source da Google Play Store que permite baixar e atualizar apps de forma anônima sem precisar de conta Google.",
+    "link": "https://auroraoss.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Baixe e atualize apps da Play Store de forma anônima",
+      "Relatório de rastreadores via Exodus Privacy integrado",
+      "Interface moderna e fluida para navegação"
+    ],
+    "contras": [
+      "Apps pagos adquiridos anteriormente não acessíveis anonimamente",
+      "Contas anônimas compartilhadas podem causar lentidão"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 80,
+    "nomeProprietario": "F-Droid / Aurora Store / APKMirror",
+    "nomeAlternativa": "Obtainium",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Android"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/obtainium.png",
+    "descricao": "App que instala e atualiza apps Android direto das fontes originais (GitHub, GitLab, F-Droid) sem repositórios intermediários.",
+    "link": "https://github.com/ImranR98/Obtainium",
+    "dificuldade": 4,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Atualizações direto do repositório oficial de cada app",
+      "Sem repositório intermediário que possa ser comprometido",
+      "Suporte a GitHub, GitLab, F-Droid e outros"
+    ],
+    "contras": [
+      "Configuração de fontes exige URLs dos repositórios",
+      "Sem curadoria de segurança como o F-Droid oferece"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 81,
+    "nomeProprietario": "Adblock Plus / Bloqueador nativo do Chrome / Brave Shields",
+    "nomeAlternativa": "uBlock Origin",
+    "categoria": "Extensões",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.simpleicons.org/ublockorigin",
+    "descricao": "O bloqueador definitivo: open-source, extremamente leve, bloqueia anúncios, rastreadores e scripts invasivos com eficiência máxima.",
+    "link": "https://github.com/gorhill/uBlock",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Eficiência extrema no bloqueio com baixíssimo uso de CPU",
+      "Listas personalizadas e criação de regras avançadas",
+      "Sem listas pagas de permissão como o Adblock Plus tem"
+    ],
+    "contras": [
+      "Pode requerer desativação em sites com anti-adblock",
+      "Suporte limitado no Chrome após migração para Manifest V3"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Voluntários",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 82,
+    "nomeProprietario": "Pular anúncios no YouTube manualmente",
+    "nomeAlternativa": "SponsorBlock",
+    "categoria": "Extensões",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://sponsor.ajay.app/LogoSponsorBlock256px.png",
+    "descricao": "Extensão que pula automaticamente segmentos patrocinados, introduções e lembretes de inscrição em vídeos do YouTube.",
+    "link": "https://sponsor.ajay.app",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Pula patrocínios embutidos no vídeo automaticamente",
+      "Totalmente configurável por categorias de segmento",
+      "Extremamente leve e eficiente no uso"
+    ],
+    "contras": [
+      "Vídeos recém-publicados podem demorar a ter marcações"
+    ],
+    "modeloNegocio": "Gratuito / Doações",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 83,
+    "nomeProprietario": "Linkvertise / AdFly / Protetores de links",
+    "nomeAlternativa": "FastForward",
+    "categoria": "Extensões",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/88992224?s=200&v=4",
+    "descricao": "Extensão open-source que bypassa automaticamente encurtadores de links, redirecionamentos de rastreamento e protetores de download.",
+    "link": "https://fastforward.team",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Pula contadores de tempo e encurtadores irritantes",
+      "Previne cliques em anúncios falsos de download",
+      "Economiza tempo em dezenas de sites de compartilhamento"
+    ],
+    "contras": [
+      "Instalação no Chrome exige etapas extras após remoção da Web Store"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 84,
+    "nomeProprietario": "Tampermonkey / Greasemonkey",
+    "nomeAlternativa": "Violentmonkey",
+    "categoria": "Extensões",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://violentmonkey.github.io/_astro/vm.C4h557K-.png",
+    "descricao": "Gerenciador de userscripts 100% open-source para personalizar e automatizar websites com scripts da comunidade ou próprios.",
+    "link": "https://violentmonkey.github.io",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% open-source sem telemetria ou rastreamento",
+      "Compatível com scripts do Greasyfork e Greasy Fork",
+      "Editor de scripts integrado diretamente na extensão"
+    ],
+    "contras": [
+      "Instalar scripts de fontes desconhecidas pode ser arriscado",
+      "Alguns sites bloqueiam execução de userscripts"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 119,
+    "nomeProprietario": "Adblock Plus / AdBlock / Ghostery",
+    "nomeAlternativa": "AdGuard",
+    "categoria": "Extensões",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.adguardcdn.com/website/adguard.com/svg/shield.svg",
+    "descricao": "Extensão de bloqueio de anúncios e rastreadores com mais de 10 milhões de usuários, suporte a listas personalizadas e modo stealth avançado.",
+    "link": "https://github.com/AdguardTeam/AdguardBrowserExtension",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Modo Stealth avança contra rastreamento por fingerprinting e cookies de terceiros",
+      "Regras de filtragem compatíveis com uBlock Origin e listas personalizadas",
+      "Funciona no Firefox com Manifest V2 mantendo bloqueio completo"
+    ],
+    "contras": [
+      "Mais pesado em memória que o uBlock Origin em comparação direta",
+      "Recursos mais avançados integrados ao AdGuard Premium pago"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 85,
+    "nomeProprietario": "Exclusão manual de contas em cada site individualmente",
+    "nomeAlternativa": "JustDeleteMe",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://f-droid.org/repo/com.amanoteam.kurt/en-US/icon_0mEt-MJgWgUoae4CMae6oNEAb_6MxfYCjbsoF8HOhNI=.png",
+    "descricao": "Diretório de links diretos para excluir contas em centenas de serviços online, classificados por dificuldade de exclusão.",
+    "link": "https://justdeleteme.xyz",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Links diretos para exclusão sem precisar navegar nos sites",
+      "Classificação por dificuldade (fácil/difícil/impossível)",
+      "Cobertura de centenas de serviços populares"
+    ],
+    "contras": [
+      "Alguns serviços não oferecem exclusão automática disponível",
+      "Lista depende de contribuições da comunidade para atualização"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 86,
+    "nomeProprietario": "Leitura manual de políticas de privacidade",
+    "nomeAlternativa": "PrivacySpy",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://privacyspy.org/static/img/fingerprint.png",
+    "descricao": "Plataforma que analisa e classifica políticas de privacidade de serviços online com pontuações e resumos legíveis por humanos.",
+    "link": "https://privacyspy.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Resumos claros das políticas em linguagem simples",
+      "Classificação comparativa entre serviços similares",
+      "Código aberto com contribuições comunitárias"
+    ],
+    "contras": [
+      "Cobertura limitada a serviços mais populares",
+      "Avaliações podem estar desatualizadas em serviços menores"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 87,
+    "nomeProprietario": "Leitura completa dos Termos de Serviço",
+    "nomeAlternativa": "ToS;DR",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://play-lh.googleusercontent.com/Z8ypK47Ty9H1g1toHiOX2ghjado5mz0zqPxXmF1UF35rXovTAlXkGygI9jAdHJWq9kw",
+    "descricao": "\"Terms of Service; Didn't Read\": classifica e resume termos de serviço com notas de A a E para decisão rápida e informada.",
+    "link": "https://tosdr.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Notas de A a E para centenas de serviços populares",
+      "Extensão de navegador que mostra a nota ao visitar sites",
+      "Resumos das cláusulas mais relevantes dos termos"
+    ],
+    "contras": [
+      "Cobertura ainda limitada a serviços principais",
+      "Classificações dependem de revisores voluntários da comunidade"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 88,
+    "nomeProprietario": "Verificação manual de vazamentos de dados",
+    "nomeAlternativa": "Have I Been Pwned?",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://haveibeenpwned.com/favicon.ico",
+    "descricao": "Verifica se seu e-mail ou senha foi exposto em vazamentos de dados conhecidos, com base em bilhões de credenciais comprometidas.",
+    "link": "https://haveibeenpwned.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Base de dados com bilhões de credenciais comprometidas",
+      "Verificação sem revelar a senha (apenas hash parcial enviado)",
+      "API gratuita para integração em gerenciadores de senha"
+    ],
+    "contras": [
+      "Serviço centralizado operado por uma única pessoa",
+      "Cobertura depende dos vazamentos disponíveis publicamente"
+    ],
+    "modeloNegocio": "Gratuito / Doações / API paga",
+    "isRecomendado": true,
+    "privacyScore": 4
+  },
+  {
+    "id": 89,
+    "nomeProprietario": "Twitter/X oficial",
+    "nomeAlternativa": "Nitter",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nitter.png",
+    "descricao": "Frontend alternativo open-source do Twitter/X que permite navegar sem conta, sem rastreamento e sem JavaScript pesado.",
+    "link": "https://github.com/zedeus/nitter",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Navega no Twitter sem conta ou rastreamento",
+      "Sem JavaScript pesado ou anúncios intrusivos",
+      "RSS feeds para seguir contas sem plataforma"
+    ],
+    "contras": [
+      "Instâncias frequentemente instáveis por mudanças na API do X",
+      "Sem capacidade de postar ou interagir com tweets"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 90,
+    "nomeProprietario": "Scan manual / Antivírus individuais",
+    "nomeAlternativa": "VirusTotal",
+    "categoria": "Privacidade & Info",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/virustotal.png",
+    "descricao": "Serviço gratuito que analisa arquivos e URLs suspeitos simultaneamente com mais de 70 motores de antivírus diferentes.",
+    "link": "https://www.virustotal.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Mais de 70 antivírus escaneando simultaneamente",
+      "Análise de URLs, IPs e domínios também disponível",
+      "Gratuito para uso público sem conta obrigatória"
+    ],
+    "contras": [
+      "Arquivos enviados ficam na base de dados da Google/VirusTotal",
+      "Não substitui um antivírus local instalado"
+    ],
+    "modeloNegocio": "Gratuito / API paga para empresas",
+    "isRecomendado": true,
+    "privacyScore": 2
+  },
+  {
+    "id": 91,
+    "nomeProprietario": "Bitwarden Cloud / LastPass Enterprise",
+    "nomeAlternativa": "Vaultwarden",
+    "categoria": "Infraestrutura",
+    "plataformas": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "logoUrl": "https://www.homedock.cloud/images/app-store-icons/res128/vaultwarden.webp",
+    "descricao": "Servidor Bitwarden compatível, ultra leve e open-source para autohospedagem, consumindo muito menos RAM que o servidor oficial.",
+    "link": "https://github.com/dani-garcia/vaultwarden",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% compatível com todos os clientes Bitwarden",
+      "Usa muito menos RAM e CPU que o servidor oficial",
+      "Controle total sobre seus dados de senhas no seu servidor"
+    ],
+    "contras": [
+      "Requer servidor e conhecimento de Docker para instalação",
+      "Backups e manutenção do banco de dados são responsabilidade sua"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 92,
+    "nomeProprietario": "Rufus / Balena Etcher / BootCamp",
+    "nomeAlternativa": "Ventoy",
+    "categoria": "Infraestrutura",
+    "plataformas": [
+      "Windows",
+      "Linux"
+    ],
+    "logoUrl": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2024/08/ventoy-logo.png?q=70&fit=contain&w=420&dpr=1",
+    "descricao": "Ferramenta que cria pendrives bootáveis com múltiplas ISOs simultaneamente, sem precisar reformatar para cada nova ISO.",
+    "link": "https://www.ventoy.net",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Múltiplas ISOs em um único pendrive sem reformatar",
+      "Basta copiar os arquivos ISO para aparecer no menu de boot",
+      "Suporte a mais de 1.000 distribuições Linux testadas"
+    ],
+    "contras": [
+      "Instalação inicial no pendrive formata o dispositivo",
+      "Interface gráfica simples sem muito visual"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 93,
+    "nomeProprietario": "SmartThings / Apple HomeKit / Google Home",
+    "nomeAlternativa": "Home Assistant",
+    "categoria": "Infraestrutura",
+    "plataformas": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/home-assistant.png",
+    "descricao": "Plataforma de automação residencial open-source autohospedável que integra mais de 3.000 dispositivos inteligentes sem nuvem.",
+    "link": "https://www.home-assistant.io",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Integração com mais de 3.000 marcas de dispositivos inteligentes",
+      "Automações locais sem depender de nuvens de terceiros",
+      "Dashboard completamente personalizável sem limites"
+    ],
+    "contras": [
+      "Curva de aprendizado significativa para novos usuários",
+      "Requer hardware dedicado para melhor performance"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Nuvem opcional paga",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 94,
+    "nomeProprietario": "Google Chrome / Apple Safari / Microsoft Edge",
+    "nomeAlternativa": "Helium Browser",
+    "categoria": "Navegação",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://i.namu.wiki/i/sMrzVhYbGzIYGpYv4kttDegr8vqu_vubYv8W9bwO8MFrb8NHsvGBdYxFbf8qhb6MYV52fiRnnl_GNJQKJa7x6Q.webp",
+    "descricao": "A melhor privacidade e bloqueio de anúncios. Sem adware, sem excessos, sem ruído. Totalmente de código aberto.",
+    "link": "https://helium-browser.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Foco em privacidade e segurança",
+      "Bloqueio de anúncios por padrão",
+      "Recursos úteis como !bangs nativos e visualização dividida."
+    ],
+    "contras": [
+      "Projeto com atualizações menos frequentes atualmente",
+      "Projeto ainda em desenvolvimento e pode conter bugs"
+    ],
+    "modeloNegocio": "Gratuito",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 95,
+    "nomeProprietario": "VS Code (Microsoft) / Sublime Text / Atom",
+    "nomeAlternativa": "VS Codium",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/VSCodium.svg/1280px-VSCodium.svg.png",
+    "descricao": "VS Code compilado sem telemetria da Microsoft e rastreamento, usando a Open VSX Registry ao invés da loja proprietária.",
+    "link": "https://vscodium.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Todas as funcionalidades do VS Code sem telemetria Microsoft",
+      "Totalmente open-source e auditável",
+      "Compatível com a maioria das extensões do VS Code"
+    ],
+    "contras": [
+      "Acessa a Open VSX Registry, não a loja oficial da Microsoft",
+      "Algumas extensões proprietárias da Microsoft não disponíveis"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 96,
+    "nomeProprietario": "VS Code / Neovim / Sublime Text",
+    "nomeAlternativa": "Zed",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Zed_Editor_Logo.png",
+    "descricao": "Editor de código extremamente rápido escrito em Rust, com colaboração multiplayer nativa em tempo real e IA integrada.",
+    "link": "https://zed.dev",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Performance excepcional por ser escrito em Rust",
+      "Colaboração em tempo real tipo Google Docs, nativa no editor",
+      "IA integrada com suporte a modelos locais e remotos"
+    ],
+    "contras": [
+      "Ecossistema de extensões menor que o VS Code ainda",
+      "Suporte ao Windows ainda em fase inicial de desenvolvimento"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Pro pago",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 97,
+    "nomeProprietario": "GitHub Copilot / Cursor / Claude Code / Devin",
+    "nomeAlternativa": "OpenCode",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://opencode.ai/favicon.ico",
+    "descricao": "Agente de codificação com IA open-source que roda no terminal, gerencia contexto de projetos e suporta múltiplos modelos.",
+    "link": "https://opencode.ai",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Suporte a múltiplos provedores de IA (Anthropic, OpenAI, Ollama)",
+      "Roda no terminal sem interface gráfica pesada",
+      "Totalmente open-source e configurável"
+    ],
+    "contras": [
+      "Interface de linha de comando pode intimidar iniciantes",
+      "Requer chave de API de provedores de IA para uso completo"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 7
+  },
+  {
+    "id": 98,
+    "nomeProprietario": "Unity / Unreal Engine / GameMaker",
+    "nomeAlternativa": "Godot",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/godot.png",
+    "descricao": "Engine de jogos 2D e 3D open-source com GDScript fácil de aprender, sem royalties e com exportação multiplataforma nativa.",
+    "link": "https://godotengine.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% gratuito sem royalties ou taxas de licença",
+      "GDScript fácil de aprender para iniciantes em gamedev",
+      "Exportação nativa para Windows, Linux, macOS, Web, Android e iOS"
+    ],
+    "contras": [
+      "Motor 3D menos maduro que Unity para projetos AAA complexos",
+      "Menos assets e documentação oficial 3D que Unity/Unreal"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Fundação sem fins lucrativos",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 99,
+    "nomeProprietario": "WinRAR / Extrator nativo do Windows",
+    "nomeAlternativa": "7-Zip",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/7zip.png",
+    "descricao": "Compressor open-source com altíssima taxa de compressão no formato 7z e suporte a dezenas de formatos incluindo RAR e ISO.",
+    "link": "https://www.7-zip.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Alta taxa de compressão no formato 7z",
+      "Suporte a ZIP, RAR, TAR, GZ, ISO e muito mais",
+      "Totalmente gratuito sem anúncios ou limitações"
+    ],
+    "contras": [
+      "Interface gráfica antiga sem integração nativa ao Windows 11",
+      "Compressão 7z mais lenta que ZIP padrão"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 100,
+    "nomeProprietario": "7-Zip / WinRAR / Extrator nativo do Windows",
+    "nomeAlternativa": "NanaZip",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://store-images.s-microsoft.com/image/apps.49525.14049914514725900.83fe2639-d834-4bec-93ba-5d356b6e6eec.3d735516-7c26-4804-96ee-6954d7d1c8ad?w=150",
+    "descricao": "Fork moderno do 7-Zip para Windows 11 com integração ao menu de contexto fluente e interface visualmente atualizada.",
+    "link": "https://github.com/M2Team/NanaZip",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Interface modernizada integrada ao Windows 11",
+      "Toda a capacidade de compressão do 7-Zip com visual atualizado",
+      "Disponível na Microsoft Store para instalação fácil"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Mais dependente do ecossistema Microsoft Store"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 101,
+    "nomeProprietario": "BitTorrent / uTorrent / Deluge",
+    "nomeAlternativa": "QBittorrent",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/qbittorrent.png",
+    "descricao": "Cliente de torrent open-source sem anúncios com interface moderna, busca integrada e WebUI para controle remoto.",
+    "link": "https://www.qbittorrent.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Sem anúncios, bundleware ou coleta de dados",
+      "WebUI para gerenciar downloads remotamente pelo navegador",
+      "Busca integrada em múltiplos indexers de torrent"
+    ],
+    "contras": [
+      "Sem VPN integrada para anonimizar downloads",
+      "Interface pode parecer datada comparada a clientes modernos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 102,
+    "nomeProprietario": "Windows Search / Indexador nativo do Explorer",
+    "nomeAlternativa": "Everything",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://danzi.blog/content/images/2025/07/Everything.ico",
+    "descricao": "Buscador de arquivos instantâneo para Windows que indexa todo o disco via NTFS em segundos e localiza qualquer arquivo em tempo real enquanto você digita.",
+    "link": "https://www.voidtools.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Indexação completa do disco em segundos via leitura direta do NTFS",
+      "Busca instantânea em tempo real sem delay enquanto digita",
+      "Suporte a filtros avançados, regex e busca por tamanho/data"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Não é open-source (código fechado da voidtools)"
+    ],
+    "modeloNegocio": "Gratuito",
+    "isRecomendado": true,
+    "privacyScore": 3
+  },
+  {
+    "id": 103,
+    "nomeProprietario": "Bloco de Notas do Windows / Sublime Text / VS Code",
+    "nomeAlternativa": "Notepad++",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://notepad-plus-plus.org/images/logo.svg",
+    "descricao": "Editor de texto e código leve e rápido para Windows com syntax highlighting, multi-abas, macros e extensível via plugins.",
+    "link": "https://notepad-plus-plus.org",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Extremamente leve e rápido mesmo em PCs antigos",
+      "Syntax highlighting para dezenas de linguagens de programação",
+      "Sistema de plugins robusto para funcionalidades extras"
+    ],
+    "contras": [
+      "Disponível exclusivamente para Windows",
+      "Interface visual datada comparada a editores modernos"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 104,
+    "nomeProprietario": "Modificações manuais de sistema / Patches não oficiais",
+    "nomeAlternativa": "Windhawk",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://windhawk.net/favicon.ico",
+    "descricao": "Marketplace de mods para Windows que permite customizar o comportamento de apps do sistema de forma segura e reversível via plugins.",
+    "link": "https://windhawk.net",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Centenas de mods prontos para Taskbar, Explorer e outros",
+      "Mods são reversíveis com um clique sem risco ao sistema",
+      "Código aberto com mods auditáveis pela comunidade"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Mods de terceiros exigem confiança nos autores da comunidade"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 105,
+    "nomeProprietario": "Streamlabs / XSplit / NVIDIA ShadowPlay",
+    "nomeAlternativa": "OBS Studio",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://obsproject.com/assets/images/new_icon_small-r.png",
+    "descricao": "Software open-source de gravação e streaming ao vivo com cenas, fontes, filtros e suporte a múltiplas plataformas simultaneamente.",
+    "link": "https://obsproject.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Gravação local e streaming simultâneos sem limite de tempo",
+      "Cenas e fontes configuráveis com filtros de áudio e vídeo",
+      "Suporte nativo a Twitch, YouTube, Facebook e RTMP personalizado"
+    ],
+    "contras": [
+      "Configuração inicial pode ser complexa para iniciantes",
+      "Consome mais CPU que alternativas simplificadas"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 106,
+    "nomeProprietario": "Windows Media Player / VLC / PotPlayer",
+    "nomeAlternativa": "MPC-HC",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://mpc-hc.org/assets/img/logo-256x256.png",
+    "descricao": "Player de vídeo leve e open-source para Windows com suporte a codecs, legendas avançadas e renderizadores externos de alta qualidade.",
+    "link": "https://github.com/clsid2/mpc-hc",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Extremamente leve e com baixíssimo uso de recursos",
+      "Suporte avançado a legendas (ASS/SSA) e renderizadores externos",
+      "Fork ativo da comunidade com atualizações e correções regulares"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Interface visual clássica sem design moderno"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 107,
+    "nomeProprietario": "MPC-HC / VLC / PotPlayer",
+    "nomeAlternativa": "MPC-BE",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn2.portableapps.com/MPC-BEPortable_128.png",
+    "descricao": "Fork independente do MPC-HC com mais recursos, suporte a formatos modernos, melhor renderização e interface mais configurável.",
+    "link": "https://github.com/Aleksoid1978/MPC-BE",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Mais recursos e formatos suportados que o MPC-HC",
+      "Renderização de vídeo superior com suporte a madVR e EVR",
+      "Levíssimo com atualização ativa e rápida"
+    ],
+    "contras": [
+      "Disponível apenas para Windows",
+      "Configurações avançadas podem ser confusas para iniciantes"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 108,
+    "nomeProprietario": "Plex / Apple TV App / Smart TV nativa",
+    "nomeAlternativa": "Kodi",
+    "categoria": "Mídia",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kodi.png",
+    "descricao": "Media center open-source multiplataforma para organizar e reproduzir filmes, séries, música e fotos com interface de 10 pés.",
+    "link": "https://kodi.tv",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Interface de 10 pés ideal para uso com controle remoto na TV",
+      "Ecossistema massivo de add-ons para streaming e organização",
+      "Sem assinatura, sem telemetria e completamente gratuito"
+    ],
+    "contras": [
+      "Configuração inicial extensa para bibliotecas e add-ons",
+      "Add-ons de terceiros podem ser instáveis ou descontinuados"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 109,
+    "nomeProprietario": "Adobe Premiere Pro / Final Cut Pro",
+    "nomeAlternativa": "DaVinci Resolve",
+    "categoria": "Criatividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png",
+    "descricao": "Suite profissional de edição de vídeo, correção de cor, áudio e efeitos visuais usada por Hollywood, com versão gratuita completa.",
+    "link": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Correção de cor profissional com nós Resolve usada em produções AAA",
+      "Versão gratuita com ferramentas que rivalizavam com software pago",
+      "Fairlight integrado para edição de áudio profissional"
+    ],
+    "contras": [
+      "Código proprietário e requer cadastro gratuito para download",
+      "Exige GPU dedicada para edição suave em 4K"
+    ],
+    "modeloNegocio": "Gratuito / Studio pago único sem assinatura",
+    "isRecomendado": true,
+    "privacyScore": 3
+  },
+  {
+    "id": 110,
+    "nomeProprietario": "VMs tradicionais / instalação direta em servidor",
+    "nomeAlternativa": "Docker",
+    "categoria": "Infraestrutura",
+    "plataformas": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/docker.png",
+    "descricao": "Plataforma de containerização open-source que empacota aplicações e dependências em containers isolados, portáveis e reproduzíveis.",
+    "link": "https://www.docker.com",
+    "dificuldade": 5,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Containers isolados garantem ambiente idêntico em qualquer máquina",
+      "Docker Compose para orquestrar múltiplos serviços com um arquivo",
+      "Ecossistema massivo de imagens prontas no Docker Hub"
+    ],
+    "contras": [
+      "Curva de aprendizado inicial para conceitos de containers e redes",
+      "Docker Desktop exige licença comercial para empresas maiores"
+    ],
+    "modeloNegocio": "Gratuito (CLI) / Docker Desktop pago em empresas",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 111,
+    "nomeProprietario": "Cadastros com E-mail real / Spam",
+    "nomeAlternativa": "SimpleLogin",
+    "categoria": "E-mail",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://avatars.githubusercontent.com/u/51910064?s=280&v=4",
+    "descricao": "Serviço open-source de alias de e-mail que protege seu endereço real. Cria e-mails exclusivos para cada site e encaminha para a sua caixa principal de forma segura.",
+    "link": "https://simplelogin.io",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Cria aliases de e-mail ilimitados para evitar rastreamento entre sites",
+      "Suporte a domínios personalizados para criar aliases próprios",
+      "Excelente integração com o ecossistema Proton Mail"
+    ],
+    "contras": [
+      "Plano gratuito limitado a 10 aliases ativos",
+      "Exige configuração de registros DNS MX/TXT para domínios próprios"
+    ],
+    "modeloNegocio": "Freemium / Premium incluído no Proton",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 113,
+    "nomeProprietario": "WhatsApp / Telegram / Discord",
+    "nomeAlternativa": "SimpleX Chat",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Android",
+      "iOS",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://imgproxy.flathub.org/insecure/dpr:1/f:webp/q:100/rs:fit:128:128/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jaGF0L3NpbXBsZXgvc2ltcGxleC8xMTU5ZTZhNDcwMTU2OTNlODNjNzNkNThhY2M4OGFjMy9pY29ucy8xMjh4MTI4L2NoYXQuc2ltcGxleC5zaW1wbGV4LnBuZw",
+    "descricao": "O primeiro mensageiro totalmente descentralizado sem qualquer identificador de usuário (nem mesmo números aleatórios). Anonimato de metadados extremo para comunicação segura.",
+    "link": "https://simplex.chat",
+    "dificuldade": 4,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Anonimato absoluto: zero perfis ou IDs de usuário nos servidores",
+      "Criptografia de ponta a ponta dupla nas mensagens",
+      "Descentralizado e auto-hospedável com servidores próprios"
+    ],
+    "contras": [
+      "Interface menos convencional e sem catálogo global exige envio de QR codes",
+      "Sincronização entre múltiplos dispositivos ainda é limitada"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto / Doações",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 114,
+    "nomeProprietario": "Evernote / Google Keep / Notion / Apple Notes",
+    "nomeAlternativa": "Standard Notes",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/standard-notes.png",
+    "descricao": "Aplicativo de notas seguro com criptografia de ponta a ponta potente de conhecimento zero, garantindo que apenas você leia suas anotações corporativas ou pessoais.",
+    "link": "https://standardnotes.com",
+    "dificuldade": 2,
+    "isOpenSource": true,
+    "requerConta": true,
+    "pros": [
+      "Notas e tags 100% criptografadas do lado do cliente antes de subir",
+      "Acesso offline seguro com senha local no dispositivo",
+      "Histórico de alterações de notas e backups integrado"
+    ],
+    "contras": [
+      "Recursos de formatação avançada (Markdown, planilhas) exigem assinatura",
+      "Interface extremamente minimalista no plano gratuito"
+    ],
+    "modeloNegocio": "Freemium / Premium pago",
+    "isRecomendado": true,
+    "privacyScore": 8
+  },
+  {
+    "id": 115,
+    "nomeProprietario": "Google Search / Bing Search",
+    "nomeAlternativa": "SearXNG",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://docs.searxng.org/_static/searxng-wordmark.svg",
+    "descricao": "Metabuscador gratuito e descentralizado que agrega resultados de mais de 70 motores de busca de forma totalmente anônima, sem rastrear seus IPs ou pesquisas.",
+    "link": "https://github.com/searxng/searxng",
+    "dificuldade": 4,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Privacidade absoluta: sem anúncios rastreados ou perfis comportamentais",
+      "Resultados neutros e agregados de diversas fontes em um só local",
+      "Pode ser hospedado no seu próprio servidor local de forma privada"
+    ],
+    "contras": [
+      "Instâncias públicas podem ficar lentas ou ser bloqueadas temporariamente",
+      "Requer hospedagem própria para segurança e velocidade máximas"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": false,
+    "privacyScore": 10
+  },
+  {
+    "id": 117,
+    "nomeProprietario": "WhatsApp / SMS",
+    "nomeAlternativa": "Telegram",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Android",
+      "iOS",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "descricao": "Mensageiro em nuvem rápido e cheio de recursos com canais e grupos massivos. Uma transição comum a partir do WhatsApp no Brasil, embora com ressalvas importantes de privacidade.",
+    "link": "https://telegram.org",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Permite ocultar o número de telefone de outros usuários",
+      "Suporte a supergrupos, canais informativos e bots automatizados",
+      "Aplicativos de cliente têm código aberto"
+    ],
+    "contras": [
+      "Chats comuns e em grupo NÃO são criptografados de ponta a ponta (ficam salvos em nuvem)",
+      "Código do servidor do Telegram é proprietário e fechado",
+      "Coleta metadados de contatos e conexão"
+    ],
+    "modeloNegocio": "Gratuito / Assinatura Premium",
+    "isRecomendado": false,
+    "privacyScore": 3
+  },
+  {
+    "id": 118,
+    "nomeProprietario": "Skype / Slack / Microsoft Teams",
+    "nomeAlternativa": "Discord",
+    "categoria": "Mensageria",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://res.cloudinary.com/dimyv3wy5/image/upload/c_fill,w_400,c_limit,f_auto,q_auto,dpr_2.0/v1769036974/895c4bfb-592d-425b-a6e5-47b191fc1831/iljk3vx3eqqov6vrrivs.svg",
+    "descricao": "Plataforma popular de chats de voz, vídeo e texto para comunidades. Extremamente conveniente e integrada, mas com foco limitado em privacidade de dados.",
+    "link": "https://discord.com",
+    "dificuldade": 2,
+    "isOpenSource": false,
+    "requerConta": true,
+    "pros": [
+      "Excelente gerenciamento de comunidades com múltiplos canais de voz e texto",
+      "Interface altamente intuitiva com compartilhamento de tela integrado",
+      "Vasta gama de integrações e bots interativos"
+    ],
+    "contras": [
+      "100% código fechado e proprietário",
+      "Coleta de dados profunda sobre comportamento e conexões do usuário",
+      "Sem criptografia de ponta a ponta nas chamadas de voz ou mensagens"
+    ],
+    "modeloNegocio": "Gratuito / Assinatura Nitro",
+    "isRecomendado": false,
+    "privacyScore": 2
+  },
+  {
+    "id": 119,
+    "nomeProprietario": "Twitter / X",
+    "nomeAlternativa": "Nitter",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nitter.png",
+    "descricao": "Front-end alternativo para o Twitter/X, focado em privacidade. Permite ler tweets sem JavaScript, sem anúncios, sem rastreadores e sem precisar de uma conta.",
+    "link": "https://nitter.net",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Sem anúncios ou rastreadores de publicidade",
+      "Não requer conta no Twitter/X para visualizar postagens e perfis",
+      "Leve e rápido, carrega sem scripts invasivos"
+    ],
+    "contras": [
+      "Instâncias públicas podem sofrer bloqueios temporários pelo Twitter/X",
+      "Não é possível interagir (curtir, retweetar, postar) diretamente"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto (Doações)",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 120,
+    "nomeProprietario": "YouTube (Google)",
+    "nomeAlternativa": "Invidious",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/invidious.png",
+    "descricao": "Front-end alternativo para o YouTube que permite assistir a vídeos de forma leve, sem anúncios, sem rastreamento do Google e sem necessidade de conta.",
+    "link": "https://invidious.io",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Remove todos os anúncios de vídeo e banners",
+      "Evita que o Google associe seus hábitos de visualização ao seu perfil",
+      "Permite criar inscrições locais e importar/exportar playlists offline"
+    ],
+    "contras": [
+      "Algumas instâncias podem apresentar lentidão temporária",
+      "Não suporta recursos integrados proprietários como chat ao vivo do YouTube"
+    ],
+    "modeloNegocio": "Gratuito / Sem fins lucrativos (Doações)",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 121,
+    "nomeProprietario": "YouTube (Google)",
+    "nomeAlternativa": "Piped",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/piped.png",
+    "descricao": "Front-end alternativo para o YouTube moderno, rápido e focado em privacidade, que carrega vídeos eficientemente e bloqueia patrocínios internos (SponsorBlock).",
+    "link": "https://piped.video",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Integração nativa com SponsorBlock para pular partes patrocinadas de vídeos",
+      "Evita telemetria e rastreadores do Google",
+      "Interface limpa e rápida com suporte a resoluções altas"
+    ],
+    "contras": [
+      "Pode requerer troca de instância pública ocasionalmente",
+      "Sem suporte a comentários oficiais do YouTube por padrão"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 122,
+    "nomeProprietario": "Reddit",
+    "nomeAlternativa": "Libreddit",
+    "categoria": "Front-ends alternativos",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/libreddit.png",
+    "descricao": "Front-end alternativo para o Reddit focado em privacidade, velocidade e estética minimalista, bloqueando rastreadores e cookies da plataforma oficial.",
+    "link": "https://github.com/libreddit/libreddit",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Impede o Reddit de rastrear seu endereço IP e histórico de navegação",
+      "Interface limpa, sem anúncios ou popups invasivos para usar o app móvel",
+      "Leve e otimizado para conexões lentas"
+    ],
+    "contras": [
+      "Não permite fazer posts ou comentar sem uma conta no Reddit oficial",
+      "Depende das atualizações da API pública do Reddit"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 123,
+    "nomeProprietario": "ChatGPT (OpenAI) / Claude (Anthropic) / Gemini (Google)",
+    "nomeAlternativa": "DuckDuckGo AI Chat",
+    "categoria": "Inteligência Artificial",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckduckgo.png",
+    "descricao": "Acesso gratuito e anônimo aos principais modelos de IA (como Claude, GPT-4o mini, Llama e Mixtral) através dos servidores da DuckDuckGo. Seus prompts são enviados de forma anônima e descartados após 24 horas.",
+    "link": "https://duck.ai",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Acesso gratuito e totalmente anônimo a modelos de IA de ponta",
+      "O DuckDuckGo remove metadados e IPs antes de enviar as consultas",
+      "Não exige e-mail, número de telefone ou cadastro"
+    ],
+    "contras": [
+      "Processamento final dos prompts ainda ocorre em servidores parceiros",
+      "Limites diários de uso por endereço IP"
+    ],
+    "modeloNegocio": "Gratuito / Sem anúncios",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 124,
+    "nomeProprietario": "ChatGPT (OpenAI) / Gemini (Google)",
+    "nomeAlternativa": "Venice AI",
+    "categoria": "Inteligência Artificial",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://venice.ai/favicon.ico",
+    "descricao": "Plataforma de inteligência artificial conversacional focada em privacidade radical. Processa consultas sem logs de chat permanentes, sem censura corporativa e com geração de texto e imagens.",
+    "link": "https://venice.ai",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Criptografia local e nenhuma retenção permanente de histórico de prompts",
+      "Respostas sem viés ideológico corporativo ou censura",
+      "Geração de imagens (modelos Flux) e texto na mesma interface privada"
+    ],
+    "contras": [
+      "Limites de consultas por hora no plano gratuito",
+      "Recursos premium e acesso a modelos avançados exigem assinatura"
+    ],
+    "modeloNegocio": "Freemium / Premium pago",
+    "isRecomendado": false,
+    "privacyScore": 8
+  },
+  {
+    "id": 125,
+    "nomeProprietario": "Google Search / Perplexity AI / Copilot",
+    "nomeAlternativa": "Brave Search Ask",
+    "categoria": "Inteligência Artificial",
+    "plataformas": [
+      "Web"
+    ],
+    "logoUrl": "https://cdn.simpleicons.org/brave",
+    "descricao": "Mecanismo de IA conversacional integrado ao Brave Search. Gera respostas resumidas e contextualizadas para perguntas complexas usando resultados da web em tempo real, sem rastrear buscas ou IPs.",
+    "link": "https://search.brave.com/ask",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Gera respostas diretas baseadas em dados da web atualizados em tempo real",
+      "Totalmente anônimo: sem armazenamento de pesquisas, termos ou IPs",
+      "Gratuito e sem necessidade de conta ou cadastro"
+    ],
+    "contras": [
+      "As respostas dependem da indexação da web e podem conter imprecisões ocasionais"
+    ],
+    "modeloNegocio": "Gratuito / Sem anúncios",
+    "isRecomendado": false,
+    "privacyScore": 8
+  }
+]
