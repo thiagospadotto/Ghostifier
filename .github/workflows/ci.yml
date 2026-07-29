@@ -36,3 +36,6 @@ jobs:
               process.exit(1);
             }
           "
+
+      - name: Validar Build dos Containers Docker (Nginx + Express)
+        run: docker compose build

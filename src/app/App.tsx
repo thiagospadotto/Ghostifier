@@ -417,6 +417,19 @@ function Navbar({
             </div>
           )}
 
+          <a
+            href="https://github.com/thiagospadotto/Ghostifier"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors p-1.5 rounded-lg hover:bg-gray-800/40"
+            aria-label="GitHub Repository"
+            title="Ver no GitHub"
+          >
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+              <path d={svgPaths.p1d1f000} fill="currentColor" />
+            </svg>
+          </a>
+
           <PrimaryButton className="!py-2.5 !px-6 !text-sm" onClick={onQuizOpen}>
             {ghostLevel ? "Refazer Diagnóstico" : "Começar agora"}
           </PrimaryButton>
@@ -435,6 +448,19 @@ function Navbar({
               <span>Sem nível</span>
             </div>
           )}
+
+          <a
+            href="https://github.com/thiagospadotto/Ghostifier"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors p-1"
+            aria-label="GitHub Repository"
+            title="Ver no GitHub"
+          >
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+              <path d={svgPaths.p1d1f000} fill="currentColor" />
+            </svg>
+          </a>
           <button
             className="p-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-white transition duration-150"
             onClick={() => setOpen((v) => !v)}
@@ -474,6 +500,17 @@ function Navbar({
           >
             Biblioteca
           </button>
+          <a
+            href="https://github.com/thiagospadotto/Ghostifier"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-3 text-left text-sm border-b font-semibold text-gray-400 hover:text-white border-gray-800/60 flex items-center gap-2"
+          >
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24">
+              <path d={svgPaths.p1d1f000} fill="currentColor" />
+            </svg>
+            <span>GitHub</span>
+          </a>
           <div className="pt-2 pb-1 flex flex-col gap-2">
             <PrimaryButton className="w-full justify-center !text-sm" onClick={() => { onQuizOpen(); setOpen(false); }}>
               {ghostLevel ? "Refazer Diagnóstico" : "Começar agora"}
@@ -906,11 +943,12 @@ function Footer() {
         {/* GitHub link centered */}
         <div>
           <a
-            href="https://github.com"
+            href="https://github.com/thiagospadotto/Ghostifier"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-opacity hover:opacity-100 opacity-70 inline-block text-white"
-            aria-label="GitHub"
+            aria-label="GitHub Repository"
+            title="Ver projeto no GitHub"
           >
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
               <path d={svgPaths.p1d1f000} fill="#ededed" />
