@@ -253,7 +253,8 @@ export function AlternativesHub({
           queryParams.append("search", searchTerm.trim());
         }
 
-        const res = await fetch(`http://localhost:3001/api/alternatives?${queryParams.toString()}`);
+        const apiBase = import.meta.env.VITE_API_URL ?? "http://localhost:3001";
+        const res = await fetch(`${apiBase}/api/alternatives?${queryParams.toString()}`);
         if (!res.ok) {
           throw new Error("Erro ao carregar dados do servidor.");
         }

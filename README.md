@@ -54,5 +54,23 @@ npm run dev
 ### 5. Acessar o Projeto
 Acesse [http://localhost:5173](http://localhost:5173) no seu navegador.
 
+---
+
+## 🐳 Executando com Docker
+
+Se preferir rodar com Docker e Docker Compose:
+
+```bash
+# Iniciar a aplicação (Frontend + Backend)
+docker compose up -d --build
+```
+
+Acesse o projeto em [http://localhost:5173](http://localhost:5173).
+
+Para encerrar os containers:
+```bash
+docker compose down
+```
+
 ## 📝 Licença
 Este projeto está licenciado sob a licença [MIT](LICENSE).
