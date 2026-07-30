@@ -88,7 +88,7 @@
       "Alguns sites bloqueiam conexões da rede Tor"
     ],
     "modeloNegocio": "Gratuito / Mantido por Doações",
-    "isRecomendado": false,
+    "isRecomendado": true,
     "privacyScore": 10
   },
   {
@@ -478,7 +478,7 @@
     "id": 17,
     "nomeProprietario": "TeamViewer / AnyDesk / Chrome Remote Desktop",
     "nomeAlternativa": "RustDesk",
-    "categoria": "Mensageria",
+    "categoria": "Infraestrutura",
     "plataformas": [
       "Windows",
       "macOS",
@@ -853,8 +853,7 @@
       "Windows",
       "macOS",
       "Linux",
-      "Android",
-      "iOS"
+      "Web"
     ],
     "logoUrl": "https://opencut.app/logos/opencut/symbol-light.svg",
     "descricao": "Editor de vídeo open-source moderno e acessível, projetado como alternativa simplificada e privada ao CapCut e similares.",
@@ -1116,7 +1115,7 @@
       "Sincronização em tempo real às vezes exige cliques manuais"
     ],
     "modeloNegocio": "Gratuito / Código Aberto",
-    "isRecomendado": false,
+    "isRecomendado": true,
     "privacyScore": 8
   },
   {
@@ -1447,7 +1446,8 @@
     "plataformas": [
       "Windows",
       "macOS",
-      "Linux"
+      "Linux",
+      "Web"
     ],
     "logoUrl": "https://avatars.githubusercontent.com/u/68179154?v=4",
     "descricao": "Editor de gráficos vetoriais e motor de animação gratuito e de código aberto, com foco em privacidade e recursos avançados para design profissional.",
@@ -1671,8 +1671,8 @@
       "iOS",
       "Web"
     ],
-    "logoUrl": "https://ente.com/static/9c3cebd070d572781794e77f24c741ef/c08de/second-green-section-e.webp",
-    "descricao": "App de fotos com criptografia de ponta a ponta e conhecimento zero. Nem a Ente pode ver suas fotos. 1 GB gratuito.",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ente-photos-icon-transparent.png/250px-Ente-photos-icon-transparent.png",
+    "descricao": "App de fotos com criptografia de ponta a ponta e conhecimento zero. Nem a Ente pode ver suas fotos. 10 GB gratuitos para sempre.",
     "link": "https://ente.io",
     "dificuldade": 2,
     "isOpenSource": true,
@@ -1768,23 +1768,24 @@
       "Web"
     ],
     "logoUrl": "https://blip.net/favicon.ico",
-    "descricao": "Transferência de arquivos peer-to-peer direta entre navegadores sem uploads para servidores, via link temporário seguro.",
+    "descricao": "Transferência de arquivos ponto a ponto entre dispositivos, sem tamanho máximo de arquivo, funcionando tanto na mesma rede quanto pela internet.",
     "link": "https://blip.net",
     "dificuldade": 1,
-    "isOpenSource": true,
+    "isOpenSource": false,
     "requerConta": false,
     "pros": [
-      "Transferência P2P direta sem armazenar arquivos em servidores",
       "Sem limite de tamanho de arquivo (limitado pela conexão)",
-      "Sem conta, registro ou rastreamento"
+      "Funciona tanto localmente quanto entre dispositivos distantes pela internet",
+      "Sem conta ou registro para uso básico"
     ],
     "contras": [
+      "Aplicativo de código fechado (proprietário), diferente do que catálogos costumam sugerir — verificar politica de dados antes de usar para arquivos sensíveis",
       "Ambos os lados precisam estar online simultaneamente",
-      "Velocidade limitada pela menor conexão entre os peers"
+      "Não há auditoria pública independente disponível sobre como o tráfego é roteado"
     ],
-    "modeloNegocio": "Gratuito / Código Aberto",
+    "modeloNegocio": "Gratuito (uso pessoal) / Proprietário",
     "isRecomendado": false,
-    "privacyScore": 10
+    "privacyScore": 6
   },
   {
     "id": 59,
@@ -2185,13 +2186,10 @@
     "categoria": "Rede & DNS",
     "plataformas": [
       "Windows",
-      "macOS",
-      "Linux",
-      "Android",
-      "iOS"
+      "Linux"
     ],
     "logoUrl": "https://safing.io/assets/icons/android-icon-192x192.png",
-    "descricao": "Firewall de aplicações open-source que monitora e bloqueia conexões individuais de cada app, impedindo envio de telemetria.",
+    "descricao": "Firewall de aplicações open-source que monitora e bloqueia conexões individuais de cada app, impedindo envio de telemetria. O projeto (Safing) foi adquirido pela IVPN em dezembro de 2024, que passou a operar o Portmaster e a rede SPN.",
     "link": "https://safing.io",
     "dificuldade": 3,
     "isOpenSource": true,
@@ -2202,11 +2200,13 @@
       "Rede SPN integrada para privacidade de tráfego extra"
     ],
     "contras": [
+      "Após aquisição pela IVPN (dez/2024), usuários relatam conflitos de compatibilidade com outras VPNs e ritmo mais lento de atualizações da SPN",
+      "Ainda sem app oficial para macOS ou mobile, apesar de estar listado como multiplataforma em alguns materiais",
       "Pode bloquear conexões legítimas de jogos e softwares",
       "Consumo de CPU e RAM elevado durante picos de rede"
     ],
     "modeloNegocio": "Código aberto / Rede SPN comercial opcional",
-    "isRecomendado": true,
+    "isRecomendado": false,
     "privacyScore": 9
   },
   {
@@ -2559,33 +2559,6 @@
     "privacyScore": 4
   },
   {
-    "id": 89,
-    "nomeProprietario": "Twitter/X oficial",
-    "nomeAlternativa": "Nitter",
-    "categoria": "Privacidade & Info",
-    "plataformas": [
-      "Web"
-    ],
-    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nitter.png",
-    "descricao": "Frontend alternativo open-source do Twitter/X que permite navegar sem conta, sem rastreamento e sem JavaScript pesado.",
-    "link": "https://github.com/zedeus/nitter",
-    "dificuldade": 1,
-    "isOpenSource": true,
-    "requerConta": false,
-    "pros": [
-      "Navega no Twitter sem conta ou rastreamento",
-      "Sem JavaScript pesado ou anúncios intrusivos",
-      "RSS feeds para seguir contas sem plataforma"
-    ],
-    "contras": [
-      "Instâncias frequentemente instáveis por mudanças na API do X",
-      "Sem capacidade de postar ou interagir com tweets"
-    ],
-    "modeloNegocio": "Gratuito / Código Aberto",
-    "isRecomendado": false,
-    "privacyScore": 9
-  },
-  {
     "id": 90,
     "nomeProprietario": "Scan manual / Antivírus individuais",
     "nomeAlternativa": "VirusTotal",
@@ -2638,7 +2611,7 @@
       "Backups e manutenção do banco de dados são responsabilidade sua"
     ],
     "modeloNegocio": "Gratuito / Código Aberto",
-    "isRecomendado": false,
+    "isRecomendado": true,
     "privacyScore": 10
   },
   {
@@ -2706,27 +2679,25 @@
     "plataformas": [
       "Windows",
       "macOS",
-      "Linux",
-      "Android",
-      "iOS"
+      "Linux"
     ],
     "logoUrl": "https://i.namu.wiki/i/sMrzVhYbGzIYGpYv4kttDegr8vqu_vubYv8W9bwO8MFrb8NHsvGBdYxFbf8qhb6MYV52fiRnnl_GNJQKJa7x6Q.webp",
-    "descricao": "A melhor privacidade e bloqueio de anúncios. Sem adware, sem excessos, sem ruído. Totalmente de código aberto.",
-    "link": "https://helium-browser.com",
+    "descricao": "Navegador baseado em ungoogled-chromium com bloqueio de anúncios via uBlock Origin nativo, foco em privacidade e !bangs no estilo DuckDuckGo. Desenvolvido pela Imput; o próprio projeto se declara em fase beta, sem apps oficiais para mobile.",
+    "link": "https://helium.computer",
     "dificuldade": 1,
     "isOpenSource": true,
     "requerConta": false,
     "pros": [
-      "Foco em privacidade e segurança",
-      "Bloqueio de anúncios por padrão",
-      "Recursos úteis como !bangs nativos e visualização dividida."
+      "Foco em privacidade e segurança, baseado em ungoogled-chromium",
+      "Bloqueio de anúncios por padrão via uBlock Origin nativo",
+      "Recursos úteis como !bangs nativos e visualização dividida"
     ],
     "contras": [
-      "Projeto com atualizações menos frequentes atualmente",
-      "Projeto ainda em desenvolvimento e pode conter bugs"
+      "Projeto declarado em fase beta pelos próprios desenvolvedores; ainda não disponível para Android/iOS",
+      "Equipe pequena e histórico curto — maturidade ainda a ser comprovada"
     ],
     "modeloNegocio": "Gratuito",
-    "isRecomendado": true,
+    "isRecomendado": false,
     "privacyScore": 8
   },
   {
@@ -3169,7 +3140,7 @@
       "Exige GPU dedicada para edição suave em 4K"
     ],
     "modeloNegocio": "Gratuito / Studio pago único sem assinatura",
-    "isRecomendado": true,
+    "isRecomendado": false,
     "privacyScore": 3
   },
   {
@@ -3261,7 +3232,7 @@
       "Sincronização entre múltiplos dispositivos ainda é limitada"
     ],
     "modeloNegocio": "Gratuito / Código Aberto / Doações",
-    "isRecomendado": false,
+    "isRecomendado": true,
     "privacyScore": 10
   },
   {
@@ -3320,7 +3291,7 @@
       "Requer hospedagem própria para segurança e velocidade máximas"
     ],
     "modeloNegocio": "Gratuito / Código Aberto",
-    "isRecomendado": false,
+    "isRecomendado": true,
     "privacyScore": 10
   },
   {
@@ -3389,7 +3360,7 @@
     "privacyScore": 2
   },
   {
-    "id": 119,
+    "id": 126,
     "nomeProprietario": "Twitter / X",
     "nomeAlternativa": "Nitter",
     "categoria": "Front-ends alternativos",
@@ -3397,23 +3368,23 @@
       "Web"
     ],
     "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nitter.png",
-    "descricao": "Front-end alternativo para o Twitter/X, focado em privacidade. Permite ler tweets sem JavaScript, sem anúncios, sem rastreadores e sem precisar de uma conta.",
-    "link": "https://nitter.net",
-    "dificuldade": 1,
+    "descricao": "Front-end alternativo para o Twitter/X, focado em privacidade: leitura sem JavaScript pesado, sem anúncios e sem rastreadores. O domínio oficial nitter.net e a maior parte das instâncias públicas ficaram fora do ar após o X restringir o acesso a contas de convidado em 2024; use um agregador de instâncias ativas em vez do link direto.",
+    "link": "https://github.com/zedeus/nitter",
+    "dificuldade": 2,
     "isOpenSource": true,
     "requerConta": false,
     "pros": [
-      "Sem anúncios ou rastreadores de publicidade",
-      "Não requer conta no Twitter/X para visualizar postagens e perfis",
-      "Leve e rápido, carrega sem scripts invasivos"
+      "Quando disponível, não exige conta no Twitter/X para visualizar postagens e perfis",
+      "Leve e rápido, carrega sem scripts invasivos",
+      "Sem anúncios ou rastreadores de publicidade"
     ],
     "contras": [
-      "Instâncias públicas podem sofrer bloqueios temporários pelo Twitter/X",
+      "Nitter.net e a maioria das instâncias públicas saíram do ar em 2024; encontrar uma instância ativa hoje é o principal obstáculo",
       "Não é possível interagir (curtir, retweetar, postar) diretamente"
     ],
     "modeloNegocio": "Gratuito / Código Aberto (Doações)",
-    "isRecomendado": true,
-    "privacyScore": 9
+    "isRecomendado": false,
+    "privacyScore": 7
   },
   {
     "id": 120,
@@ -3424,9 +3395,9 @@
       "Web"
     ],
     "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/invidious.png",
-    "descricao": "Front-end alternativo para o YouTube que permite assistir a vídeos de forma leve, sem anúncios, sem rastreamento do Google e sem necessidade de conta.",
+    "descricao": "Front-end alternativo para o YouTube que permite assistir a vídeos de forma leve, sem anúncios, sem rastreamento do Google e sem necessidade de conta. O Google intensificou o bloqueio às instâncias públicas a partir de 2024, e a lista oficial de instâncias confiáveis encolheu bastante; o próprio projeto recomenda hospedar sua própria instância para uso confiável.",
     "link": "https://invidious.io",
-    "dificuldade": 1,
+    "dificuldade": 3,
     "isOpenSource": true,
     "requerConta": false,
     "pros": [
@@ -3435,11 +3406,11 @@
       "Permite criar inscrições locais e importar/exportar playlists offline"
     ],
     "contras": [
-      "Algumas instâncias podem apresentar lentidão temporária",
+      "Poucas instâncias públicas confiáveis restam; a maioria foi bloqueada pelo Google desde 2024, e uso estável geralmente exige self-hosting",
       "Não suporta recursos integrados proprietários como chat ao vivo do YouTube"
     ],
     "modeloNegocio": "Gratuito / Sem fins lucrativos (Doações)",
-    "isRecomendado": true,
+    "isRecomendado": false,
     "privacyScore": 9
   },
   {
@@ -3472,25 +3443,26 @@
   {
     "id": 122,
     "nomeProprietario": "Reddit",
-    "nomeAlternativa": "Libreddit",
+    "nomeAlternativa": "Redlib (antigo Libreddit)",
     "categoria": "Front-ends alternativos",
     "plataformas": [
       "Web"
     ],
     "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/libreddit.png",
-    "descricao": "Front-end alternativo para o Reddit focado em privacidade, velocidade e estética minimalista, bloqueando rastreadores e cookies da plataforma oficial.",
-    "link": "https://github.com/libreddit/libreddit",
+    "descricao": "Front-end alternativo para o Reddit focado em privacidade, velocidade e estética minimalista, bloqueando rastreadores e cookies da plataforma oficial. O projeto original Libreddit parou de funcionar em julho de 2023 após mudanças na API do Reddit e foi descontinuado; a comunidade deu continuidade ao código sob o nome Redlib, que é a versão mantida atualmente.",
+    "link": "https://github.com/redlib-org/redlib",
     "dificuldade": 1,
     "isOpenSource": true,
     "requerConta": false,
     "pros": [
       "Impede o Reddit de rastrear seu endereço IP e histórico de navegação",
-      "Interface limpa, sem anúncios ou popups invasivos para usar o app móvel",
+      "Interface limpa, sem anúncios ou popups invasivos",
       "Leve e otimizado para conexões lentas"
     ],
     "contras": [
+      "O nome/repositório 'Libreddit' está abandonado; é preciso usar o Redlib e suas instâncias, não o projeto original",
       "Não permite fazer posts ou comentar sem uma conta no Reddit oficial",
-      "Depende das atualizações da API pública do Reddit"
+      "Instâncias públicas dependem de contornos técnicos às restrições de API do Reddit e podem cair periodicamente"
     ],
     "modeloNegocio": "Gratuito / Código Aberto",
     "isRecomendado": true,
@@ -3505,7 +3477,7 @@
       "Web"
     ],
     "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckduckgo.png",
-    "descricao": "Acesso gratuito e anônimo aos principais modelos de IA (como Claude, GPT-4o mini, Llama e Mixtral) através dos servidores da DuckDuckGo. Seus prompts são enviados de forma anônima e descartados após 24 horas.",
+    "descricao": "Acesso gratuito e anônimo a modelos de IA de terceiros (atualmente inclui variantes da Anthropic, OpenAI, Mistral e modelos abertos como Llama/Gemma) através dos servidores da DuckDuckGo, que removem IP e metadados antes do envio. A lista de modelos disponíveis muda com frequência; consulte duck.ai para a seleção atual.",
     "link": "https://duck.ai",
     "dificuldade": 1,
     "isOpenSource": false,
@@ -3575,5 +3547,191 @@
     "modeloNegocio": "Gratuito / Sem anúncios",
     "isRecomendado": false,
     "privacyScore": 8
+  },
+  {
+    "id": 127,
+    "nomeProprietario": "Google Search / Bing / Yahoo",
+    "nomeAlternativa": "DuckDuckGo",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckduckgo.png",
+    "descricao": "O buscador privado mais conhecido do mundo: não rastreia buscas, não cria perfis de usuário e combina índice próprio com resultados do Bing. É a porta de entrada mais fácil para quem quer sair do Google sem perder praticidade no dia a dia.",
+    "link": "https://duckduckgo.com",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Extremamente fácil de adotar: funciona como qualquer buscador, sem curva de aprendizado",
+      "Anúncios contextuais baseados apenas no termo buscado, sem perfil de usuário",
+      "App/extensão com bloqueio de rastreadores incluso para quem quiser ir além da busca"
+    ],
+    "contras": [
+      "Parte dos resultados vem de parceria com o Bing, então não é 100% independente como o Brave Search",
+      "Motor de busca e infraestrutura são de código fechado"
+    ],
+    "modeloNegocio": "Gratuito / Publicidade contextual não rastreada",
+    "isRecomendado": true,
+    "privacyScore": 7
+  },
+  {
+    "id": 128,
+    "nomeProprietario": "Google Maps / Waze",
+    "nomeAlternativa": "Organic Maps",
+    "categoria": "Mapas & Navegação",
+    "plataformas": [
+      "Android",
+      "iOS",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://organicmaps.app/favicon.ico",
+    "descricao": "App de mapas e navegação 100% offline baseado em dados do OpenStreetMap, sem anúncios, sem conta e sem enviar sua localização para servidores externos. Boa opção para sair do Google Maps/Waze no uso diário.",
+    "link": "https://organicmaps.app",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Funciona 100% offline após baixar o mapa da região — sem gastar dados móveis",
+      "Zero rastreamento de localização e nenhum dado enviado a servidores externos",
+      "App leve, rápido e sem anúncios"
+    ],
+    "contras": [
+      "Sem trânsito em tempo real, alertas de radar/blitz ou reportes de usuários como no Waze",
+      "A geração dos arquivos de mapa não é mais pública e usa licença própria (o código do app em si é aberto); parte da comunidade migrou para o fork CoMaps em 2025 por preocupações de governança do projeto",
+      "Qualidade dos dados depende de quão bem mapeada está a região no OpenStreetMap"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto (Doações)",
+    "isRecomendado": true,
+    "privacyScore": 10
+  },
+  {
+    "id": 129,
+    "nomeProprietario": "Google Translate / Microsoft Translator / DeepL",
+    "nomeAlternativa": "LibreTranslate",
+    "categoria": "Produtividade",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "logoUrl": "https://community.libretranslate.com/uploads/default/original/1X/cba1464ba45e470db4ec853535218539cf5d4777.png",
+    "descricao": "Tradutor de máquina open-source que pode ser autohospedado para que nenhum texto digitado saia do seu próprio servidor; também existe uma instância pública oficial paga por uso via API.",
+    "link": "https://libretranslate.com",
+    "dificuldade": 3,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Totalmente autohospedável: nenhuma frase digitada sai da sua máquina/servidor",
+      "API aberta e gratuita para quem roda a própria instância, sem limites artificiais",
+      "Funciona offline depois de baixados os modelos de idioma"
+    ],
+    "contras": [
+      "Qualidade de tradução é sensivelmente inferior à do Google Translate/DeepL na maioria dos idiomas",
+      "Rodar a própria instância exige conhecimento técnico e hardware razoável (8GB+ RAM para todos os idiomas)",
+      "A instância pública oficial (libretranslate.com) cobra por uso de API após o limite gratuito"
+    ],
+    "modeloNegocio": "Gratuito (self-hosted) / API paga na instância oficial",
+    "isRecomendado": false,
+    "privacyScore": 9
+  },
+  {
+    "id": 130,
+    "nomeProprietario": "Google Search / Bing / Yahoo",
+    "nomeAlternativa": "Ecosia",
+    "categoria": "Buscadores",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ecosia.png",
+    "descricao": "Buscador que reverte a maior parte do lucro dos anúncios para plantio de árvores. É mais uma escolha pela causa ambiental do que por privacidade radical: os resultados vêm de parceria com Microsoft Bing (e às vezes Google), para quem essas empresas recebem o IP e o termo buscado.",
+    "link": "https://www.ecosia.org",
+    "dificuldade": 1,
+    "isOpenSource": false,
+    "requerConta": false,
+    "pros": [
+      "Cerca de 80% do lucro dos anúncios financia plantio de árvores em projetos de reflorestamento",
+      "Não monta perfil pessoal de busca nem vende dados a terceiros",
+      "App/navegador próprio com bloqueio de rastreadores e navegação privada opcional"
+    ],
+    "contras": [
+      "Depende de Microsoft Bing (e por vezes Google) para gerar resultados, que recebem IP e termo de busca em cada consulta — privacidade bem mais limitada que DuckDuckGo, Brave Search ou SearXNG",
+      "Índice próprio (EUSP, parceria com a Qwant) ainda está em fase inicial e disponível só na França",
+      "Foco declarado é impacto ambiental, não privacidade — quem prioriza privacidade tem opções melhores nesta lista"
+    ],
+    "modeloNegocio": "Gratuito / Publicidade (lucro revertido para plantio de árvores)",
+    "isRecomendado": false,
+    "privacyScore": 4
+  },
+  {
+    "id": 131,
+    "nomeProprietario": "Postman / Insomnia",
+    "nomeAlternativa": "Hoppscotch",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "logoUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/hoppscotch.png",
+    "descricao": "Plataforma leve e open-source para desenvolvimento e teste de APIs (REST, GraphQL, WebSocket, SSE e gRPC). Funciona diretamente no navegador ou como app desktop autohospedável, sem forçar criação de conta ou sincronização em nuvem.",
+    "link": "https://hoppscotch.io",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "Funciona 100% no navegador ou desktop sem necessidade de login ou conta para requisições locais",
+      "Código aberto (MIT), leve e extremamente rápido em comparação com Postman e Insomnia",
+      "Suporte nativo a REST, GraphQL, WebSockets, Server-Sent Events (SSE) e gRPC com coleções e ambientes"
+    ],
+    "contras": [
+      "Requisições de origem cruzada (CORS) no navegador exigem o uso da extensão oficial do Hoppscotch ou um agente/proxy",
+      "Recursos de colaboração em equipe em tempo real dependem de self-hosting da versão Server ou conta no Hoppscotch Cloud"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto (MIT) / Cloud & Enterprise pagos",
+    "isRecomendado": true,
+    "privacyScore": 9
+  },
+  {
+    "id": 132,
+    "nomeProprietario": "Postman / Insomnia",
+    "nomeAlternativa": "Bruno",
+    "categoria": "Dev & Ferramentas",
+    "plataformas": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "logoUrl": "https://www.usebruno.com/favicon.ico",
+    "descricao": "Cliente de API open-source, 100% offline e focado em privacidade. Armazena suas coleções diretamente em arquivos de texto (.bru) no seu sistema de arquivos local, permitindo versionar requisições facilmente via Git sem dependência de nuvem.",
+    "link": "https://www.usebruno.com",
+    "dificuldade": 1,
+    "isOpenSource": true,
+    "requerConta": false,
+    "pros": [
+      "100% offline e local por padrão: nenhuma requisição ou dado é enviado para nuvem externa de terceiros",
+      "Salva coleções diretamente em arquivos (.bru) no repositório local, facilitando o controle de versão nativo com Git",
+      "Interface leve, rápida, moderna e totalmente sem necessidade de conta ou login"
+    ],
+    "contras": [
+      "Focado em aplicativo desktop local (não possui versão em nuvem/navegador)",
+      "Edição 'Golden' (paga) necessária para alguns recursos estendidos como integração com geradores de OpenAPI e suporte a gRPC avançado"
+    ],
+    "modeloNegocio": "Gratuito / Código Aberto (MIT) / Licença Golden opcional",
+    "isRecomendado": true,
+    "privacyScore": 10
   }
 ]
