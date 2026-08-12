@@ -4,7 +4,7 @@ import { ArrowRight, ArrowLeft, RotateCcw, ShieldCheck, ShieldAlert, ShieldX, Sh
 import logoDefault from "../assets/logo_default.svg";
 import logoIcon from "../assets/logo_icon.svg";
 
-// ─── Design tokens (espelho exato da homepage) ────────────────────────────────
+
 const C = {
   base: "#1e1e2e",
   surface: "#27293d",
@@ -21,7 +21,7 @@ const C = {
   peach: "#fab387",
 };
 
-// ─── Quiz data ─────────────────────────────────────────────────────────────────
+
 export interface Option {
   points: 0 | 5 | 10;
   label: string;
@@ -198,7 +198,7 @@ export const categories: Category[] = [
   },
 ];
 
-// ─── Helpers ───────────────────────────────────────────────────────────────────
+
 export interface Answers {
   [questionId: number]: 0 | 5 | 10;
 }
@@ -257,7 +257,7 @@ function getLevel(score: number): Level {
   };
 }
 
-// ─── Shared UI primitives (espelham a homepage) ───────────────────────────────
+
 
 function LogoSvg({ className = "" }: { className?: string }) {
   return (
@@ -269,7 +269,7 @@ function LogoSvg({ className = "" }: { className?: string }) {
   );
 }
 
-// Idêntico ao SectionLabel da homepage
+
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center justify-center gap-3 text-xs font-bold tracking-[1.2px] uppercase text-[#89b4fa]">
@@ -280,7 +280,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-// Idêntico ao PrimaryButton da homepage (com h-12 para consistência de altura)
+
 function PrimaryBtn({ children, onClick, className = "" }: { children: React.ReactNode; onClick?: () => void; className?: string }) {
   return (
     <motion.button
@@ -294,7 +294,7 @@ function PrimaryBtn({ children, onClick, className = "" }: { children: React.Rea
   );
 }
 
-// Idêntico ao GhostButton da homepage (com h-12 para consistência de altura)
+
 function GhostBtn({ children, onClick, className = "" }: { children: React.ReactNode; onClick?: () => void; className?: string }) {
   return (
     <motion.button
@@ -308,7 +308,7 @@ function GhostBtn({ children, onClick, className = "" }: { children: React.React
   );
 }
 
-// Idêntico ao IconBox das feature cards da homepage
+
 function IconBox({ children }: { children: React.ReactNode }) {
   return (
     <div
@@ -319,7 +319,7 @@ function IconBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ─── Progress bar (gradiente azul→roxo igual à homepage) ─────────────────────
+
 function ProgressBar({ current, total }: { current: number; total: number }) {
   const pct = Math.round((current / total) * 100);
   return (
@@ -333,7 +333,7 @@ function ProgressBar({ current, total }: { current: number; total: number }) {
   );
 }
 
-// ─── Option card (alinhado com os feature/bento cards da homepage) ────────────
+
 function OptionCard({ option, selected, index, onSelect }: {
   option: Option; selected: boolean; index: number; onSelect: () => void;
 }) {
@@ -386,7 +386,7 @@ function OptionCard({ option, selected, index, onSelect }: {
   );
 }
 
-// ─── Intro Screen ─────────────────────────────────────────────────────────────
+
 function IntroScreen({ onStart }: { onStart: () => void }) {
   return (
     <motion.div
@@ -449,7 +449,7 @@ function IntroScreen({ onStart }: { onStart: () => void }) {
   );
 }
 
-// ─── Question Screen ──────────────────────────────────────────────────────────
+
 function QuestionScreen({ question, category, globalIndex, totalQuestions, selectedPoints, onSelect, onBack }: {
   question: Question; category: Category; globalIndex: number; totalQuestions: number;
   selectedPoints: 0 | 5 | 10 | undefined; onSelect: (p: 0 | 5 | 10) => void; onBack: () => void;
@@ -526,7 +526,7 @@ function QuestionScreen({ question, category, globalIndex, totalQuestions, selec
   );
 }
 
-// ─── Score Meter ──────────────────────────────────────────────────────────────
+
 function ScoreMeter({ score, color }: { score: number; color: string }) {
   const max = 120;
   const pct = score / max;
@@ -763,13 +763,13 @@ function ResultsScreen({ answers, onRestart, onClose }: {
   );
 }
 
-// ─── Shuffle ──────────────────────────────────────────────────────────────────
+
 function shuffleOptions(question: Question): Question {
   const shuffled = [...question.options].sort(() => Math.random() - 0.5) as [Option, Option, Option];
   return { ...question, options: shuffled };
 }
 
-// ─── Calculating Screen (Premium Loader) ──────────────────────────────────────
+
 function CalculatingScreen() {
   const [progress, setProgress] = useState(0);
   const [textIdx, setTextIdx] = useState(0);
@@ -826,7 +826,7 @@ function CalculatingScreen() {
   );
 }
 
-// ─── Main Quiz component ───────────────────────────────────────────────────────
+
 type QuizStep = "intro" | "question" | "calculating" | "results";
 
 export function Quiz({ onClose }: { onClose: (goToHub?: boolean) => void }) {
@@ -857,7 +857,7 @@ export function Quiz({ onClose }: { onClose: (goToHub?: boolean) => void }) {
 
   function handleSelect(points: 0 | 5 | 10) {
     const qId = questions[currentIdx].question.id;
-    if (answers[qId] !== undefined) return; // evita duplo clique durante o delay de avanço
+    if (answers[qId] !== undefined) return;
     
     const newAnswers = { ...answers, [qId]: points };
     setAnswers(newAnswers);

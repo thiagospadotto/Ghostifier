@@ -27,27 +27,22 @@ async function getAlternatives() {
   }
 }
 
-// Algoritmo de cálculo do Score de Privacidade (Score Invisível)
+// Algoritmo de cálculo do Score de Privacidade
 function calcularScoreInvisivel(app) {
   let score = 0;
 
-  // 1. Transparência (max 40 pts)
   const transparency = app.privacyScore || 5;
   score += transparency * 4;
 
-  // 2. Código Aberto (max 20 pts)
   if (app.isOpenSource) score += 20;
 
-  // 3. Requer Conta (max 15 pts)
   if (!app.requerConta) score += 15;
 
-  // 4. Dificuldade de Migração (max 15 pts)
   if (app.dificuldade === 1) score += 15;
   else if (app.dificuldade === 2) score += 12;
   else if (app.dificuldade === 3) score += 9;
   else if (app.dificuldade === 4) score += 5;
 
-  // 5. Modelo de Negócio (max 10 pts)
   const model = (app.modeloNegocio || "").toLowerCase();
   if (model.includes("doaç") || model.includes("sem fins lucrativos") || (model.includes("gratuito") && !model.includes("anúncio") && !model.includes("publicidade"))) {
     score += 10;
@@ -58,13 +53,12 @@ function calcularScoreInvisivel(app) {
   return score;
 }
 
-// Endpoint Principal: Busca e Filtragem por Categoria, Nível de Privacidade, Recomendados e Busca Textual
+// Endpoint Principal
 app.get('/api/alternatives', async (req, res) => {
   const { category, search, recommended, ghostLevel, minScore } = req.query;
   const alternatives = await getAlternatives();
   let filtered = [...alternatives];
 
-  // 1. Filtro por Categoria
   if (category && category !== 'Todas') {
     if (category.toLowerCase() === 'recomendados') {
       filtered = filtered.filter(app => app.isRecomendado);
@@ -73,12 +67,10 @@ app.get('/api/alternatives', async (req, res) => {
     }
   }
 
-  // 2. Filtro por Recomendados
   if (recommended === 'true') {
     filtered = filtered.filter(app => app.isRecomendado);
   }
 
-  // 3. Filtro por Nível de Privacidade (Ghost Level)
   if (ghostLevel && ghostLevel !== 'Todos') {
     const level = ghostLevel.toString().toLowerCase();
     filtered = filtered.filter(app => {
@@ -92,7 +84,6 @@ app.get('/api/alternatives', async (req, res) => {
     });
   }
 
-  // 4. Filtro por Score Mínimo de Privacidade
   if (minScore) {
     const scoreNum = parseFloat(minScore.toString());
     if (!isNaN(scoreNum)) {
@@ -100,7 +91,6 @@ app.get('/api/alternatives', async (req, res) => {
     }
   }
 
-  // 5. Filtro por Busca Textual
   if (search) {
     const query = search.toString().toLowerCase();
     filtered = filtered.filter(app =>
@@ -115,7 +105,7 @@ app.get('/api/alternatives', async (req, res) => {
   res.json(filtered);
 });
 
-// Endpoint Secundário: Obter todas as categorias existentes
+// Endpoint Secundário
 app.get('/api/categories', async (req, res) => {
   const alternatives = await getAlternatives();
   const categories = Array.from(new Set(alternatives.map(a => a.categoria)));

@@ -60,12 +60,10 @@ const difficultyColors = [
   "text-rose-400 bg-rose-500/10 border-rose-500/20"
 ];
 
-// ─── Privacy Score Bar ───────────────────────────────────────────────────────
+
 function PrivacyScoreBar({ score }: { score: number }) {
   const pct = (score / 10) * 100;
 
-  // Color thresholds matching the scoring criteria:
-  // 1-3: red (invasive), 4-6: amber (mixed), 7-8: blue (good), 9-10: emerald (extreme)
   const getScoreColor = (s: number) => {
     if (s <= 3) return { bar: "#f38ba8", bg: "bg-[#f38ba8]", text: "text-[#f38ba8]", label: "Invasivo", glow: "rgba(243,139,168,0.3)" };
     if (s <= 6) return { bar: "#f9e2af", bg: "bg-[#f9e2af]", text: "text-[#f9e2af]", label: "Moderado", glow: "rgba(249,226,175,0.3)" };
@@ -77,7 +75,6 @@ function PrivacyScoreBar({ score }: { score: number }) {
 
   return (
     <div className="relative z-10 flex flex-col gap-2 bg-gray-950/40 border border-gray-900/60 p-3 rounded-xl">
-      {/* Header row */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-1.5">
           <Ghost size={11} style={{ color: colors.bar }} />
@@ -99,7 +96,7 @@ function PrivacyScoreBar({ score }: { score: number }) {
       <div className="relative h-2 rounded-full overflow-hidden bg-gray-900 border border-gray-800/60">
         <motion.div
           className="h-full rounded-full"
-          style={{ // NOSONAR
+          style={{
             background: `linear-gradient(90deg, ${colors.bar}88, ${colors.bar})`,
             boxShadow: `0 0 8px ${colors.glow}`,
           }}
@@ -108,8 +105,6 @@ function PrivacyScoreBar({ score }: { score: number }) {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
         />
       </div>
-
-      {/* Tick marks 1–10 */}
       <div className="flex justify-between px-0.5">
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
           <div
@@ -184,7 +179,7 @@ export function AlternativeCard({ app }: { app: AlternativeApp }) {
     return short;
   };
 
-  // green = free/open, amber = freemium/mixed/donations, rose = paid/ads
+
   const getModelColor = (model: string) => {
     const lower = model.toLowerCase();
     if (
@@ -203,15 +198,15 @@ export function AlternativeCard({ app }: { app: AlternativeApp }) {
     ) {
       return "text-amber-400 bg-amber-500/10 border-amber-500/20";
     }
-    // fully paid (paid without any free core)
+
     if (lower.includes("publicidade") || lower.includes("anúncios") || lower.includes("recompensas")) {
       return "text-rose-400 bg-rose-500/10 border-rose-500/20";
     }
-    // explicitly paid subscription with no free tier
+
     if (lower.includes("assinatura paga") || (lower.includes("pago") && !lower.includes("gratuito") && !lower.includes("doação"))) {
       return "text-rose-400 bg-rose-500/10 border-rose-500/20";
     }
-    // mixed/freemium: has free tier but also paid elements
+
     if (lower.includes("doações") || lower.includes("doação")) {
       return "text-amber-400 bg-amber-500/10 border-amber-500/20";
     }

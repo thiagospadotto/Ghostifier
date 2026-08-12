@@ -1,42 +1,86 @@
-# Design System
+# 🎨 Ghostifier — Design System & Interface Specifications
 
-## Typography
-
-### Font Families
-- **Display (Headings):** `Outfit`, sans-serif (used for display, H1, H2, H3, H4 titles to evoke modern elegance)
-- **Sans (Body / Interface):** `Plus Jakarta Sans`, sans-serif (used for paragraph descriptions, labels, button text, and technical tables)
-
-### Scale & Hierarchy
-- **H1 (Page Titles):** `text-4xl md:text-5xl font-extrabold tracking-tight`
-- **H2 (Section Titles):** `text-3xl md:text-4xl font-semibold tracking-tight`
-- **H3 (Card Titles):** `text-2xl font-semibold`
-- **Body Text:** `text-base text-gray-400 leading-relaxed`
-- **Muted Labels / Eyebrows:** `text-xs font-bold tracking-[1.2px] uppercase text-[#89b4fa]`
+O **Ghostifier** utiliza uma identidade visual elegante, escura e focada na cibersegurança e soberania de dados. O design system combina a paleta *Catppuccin Macchiato*, a tipografia variável *Satoshi*, micro-interações fluidas via *Framer Motion* e componentes modulares responsivos.
 
 ---
 
-## Color Palette
+## 🔤 Tipografia
 
-All colors are configured in `theme.css` via custom CSS custom properties and mapped to Tailwind colors.
+### Fonte Principal
+- **Família de Fontes:** `Satoshi` (Variable Font, pesos 300 a 900) carregada via Fontshare CDN em `src/styles/fonts.css`.
+- **Configuração no Tailwind:** `@theme inline` (`var(--font-sans)` e `var(--font-display)` apontam para `'Satoshi', system-ui, -apple-system, sans-serif`).
 
-### Dark Mode (Core Theme)
-- **Background (Canvas):** `oklch(0.145 0 0)` — Deep dark carbon gray for low eye-strain and professional protection aesthetic.
-- **Foreground (Text):** `oklch(0.985 0 0)` — Clean, soft off-white.
-- **Primary Accent (Lavender):** `#cba6f7` — Used for main buttons, primary highlights, and brand gradients.
-- **Secondary Accent (Cyan):** `#89b4fa` — Used for category tabs, tags, and informational eyebrows.
-- **Card Background:** `oklch(0.145 0 0)` / `bg-gray-900`
-- **Border / Muted:** `oklch(0.269 0 0)` / `border-gray-800`
-- **Gold Highlight (Recommended):** `border-amber-500/40` with `text-amber-500` for highly-recommended tools.
+### Escala e Hierarquia Visual
+- **H1 (Títulos Principais / Hero):** `text-4xl md:text-6xl font-extrabold tracking-tight text-white`
+- **H2 (Títulos de Seções / Hub / Quiz):** `text-3xl md:text-4xl font-bold text-white tracking-tight`
+- **H3 (Títulos de Cards / Ferramentas):** `text-xl font-bold text-white`
+- **Corpo (Texto Principal):** `text-base text-[#cdd6f4] leading-relaxed`
+- **Subtextos / Muted:** `text-sm text-[#a6adc8]` ou `text-xs text-gray-400`
+- **Eyebrows / Badges:** `text-xs font-bold uppercase tracking-wider text-[#89b4fa]` (Cyan) ou `text-[#cba6f7]` (Lavender)
 
 ---
 
-## Layout & Components
+## 🎨 Paleta de Cores (Catppuccin Macchiato Theme)
 
-### Page Wrapper Bounds
-- **Standard Width & Alignments:** `max-w-7xl mx-auto px-6 md:px-10` applied to Page Headers, Main Content Sections, and Quiz elements.
+O sistema opera primariamente em **Modo Escuro (Dark Mode por padrão)** para proporcionar baixo cansaço visual e estética moderna de privacidade digital.
 
-### Cards Grid Layout
-- **Responsiveness Grid:** `grid grid-cols-1 md:grid-cols-2 gap-6` to ensure cards never squeeze long texts or compatibility badges.
+### Cores Base de Superfície (Design Tokens)
+- **Base Canvas (`#1e1e2e` / `bg-gray-950`):** Fundo principal da aplicação.
+- **Mantle (`#181825` / `bg-gray-900`):** Fundo de áreas elevadas, cards e cabeçalhos.
+- **Surface (`#27293d` / `bg-gray-850`):** Superfície para estados hover, caixas de diálogo e containers internos.
+- **Surface2 (`#222235`):** Inputs de busca, campos de formulário e dropdowns.
 
-### Sticky Sidebar Panel
-- Persistent navigation panel on desktop viewports (`w-72 shrink-0 lg:sticky lg:top-28`) displaying categories, counts, and the recommended switch toggle.
+### Cores de Destaque (Accents)
+- **Primary Accent — Lavender (`#cba6f7`):** Usada para botões de ação principal (CTA), bordas de destaque, estado ativo de categorias e títulos em gradiente.
+- **Secondary Accent — Cyan (`#89b4fa`):** Usada para etiquetas de categorias, ícones de destaque, sombras brilhantes (*glow*) e badges informativos.
+- **Gold / Amber Accent (`#fab387` / `amber-500`):** Badge de ferramentas *Altamente Recomendadas* e estrelas do Score de Privacidade.
+- **Success Green (`#a6e3a1` / `emerald-400`):** Usada em marcadores de *Prós* e selos *Open-Source*.
+- **Danger / Red (`#f38ba8` / `rose-400`):** Usada em alertas, marcas substituídas e *Contras*.
+
+---
+
+## 🖥️ Arquitetura das Interfaces
+
+### 1. Header & Navegação Superior
+- **Efeito Glassmorphism:** `backdrop-blur-md bg-[#181825]/80 border-b border-gray-800/80` fixo no topo (`sticky top-0 z-50`).
+- **Branding:** Logo vetorial `LogoSvg` acompanhada do título em gradiente Lavender/Cyan.
+- **Ações:** Botões de alternância rápida entre a **Landing Page**, o **Quiz de Privacidade** e o **Hub de Alternativas**.
+- **Menu Mobile:** Overlay responsivo com animação de deslize e fechamento rápido.
+
+### 2. Landing Page & Hero Section
+- **Hero Title:** Mensagem de impacto *"Aberto no código, invisível na rede"*.
+- **Ilustração Fantasma (`GhostIllustration`):** Elemento gráfico vetorial animado com aura reluzente em iluminação difusa (`blur-[75px] bg-[#89b4fa]`).
+- **Cards de Conscientização:** Grade interativa demonstrando a transição do aprisionamento tecnológico das Big Techs para a soberania de dados.
+
+### 3. Quiz Interativo de Privacidade (Diagnóstico Digital)
+- **Estrutura de Perguntas:** Interface focada em etapas com seleção interativa de opções.
+- **Barra de Progresso:** Indicador visual em tempo real do progresso da avaliação.
+- **Algoritmo do Score Invisível:** Classificação automática em 5 Níveis Ghost:
+  1. 🔴 **Iniciante** (Maturidade inicial)
+  2. 🟠 **Silhueta** (Consciência básica)
+  3. 💛 **Sombra** (Práticas ativas de privacidade)
+  4. 🟢 **Espectro** (Alto nível de soberania digital)
+  5. 🟣 **Fantasma** (Privacidade máxima e desvinculação de rastreadores)
+- **Recomendação Personalizada:** Exibição de diagnóstico detalhado com redirecionamento direto para as ferramentas recomendadas no Hub.
+
+### 4. Hub de Alternativas (Directory Hub)
+- **Barra de Pesquisa e Filtros:**
+  - `SearchInput`: Campo de busca em tempo real com ícone e botão de limpeza (`X`).
+  - `CustomDropdown`: Seletores customizados para ordenação (*Recomendado, Dificuldade, A-Z*) e por *Nível Ghost*.
+- **Filtro de Categorias Horizontal:** Carrossel/grade de botões com ícones do *Lucide-React* (*Navegação, E-mail, Mensageria, Buscadores, IA, Produtividade, etc.*).
+- **AlternativeCard (Card da Ferramenta):**
+  - Header com logo via `ImageWithFallback` e indicação da ferramenta proprietária substituída.
+  - Badges de características (*Open-Source*, *Sem Conta*, *Local-First*).
+  - Medidor de **Dificuldade de Migração** (escala de 1 a 5).
+  - Acordeão animado expansível com **Prós e Contras** detalhados.
+  - Link externo com ícone e efeito de elevação no hover.
+- **Estado de Carregamento:** Skeletons animados com efeito de pulsação (`animate-pulse`) durante a busca de dados do servidor backend Express.
+
+---
+
+## ✨ Animações e Micro-Interações
+
+- **Framer Motion (`motion/react`):**
+  - `FadeIn`: Componente global para revelação suave na rolagem de página (`opacity: 0, y: 28` ➔ `opacity: 1, y: 0`).
+  - `AnimatePresence`: Suporte a transições de entrada e saída em modais, dropdowns e acordeões.
+  - **Hover Effects:** Transição suave de borda, mudança de cor e elevação de cards no hover (`transition-all duration-200`).

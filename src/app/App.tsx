@@ -11,7 +11,7 @@ import imgCard2 from "../assets/images/card-2.png";
 import imgCard3 from "../assets/images/card-3.png";
 import logoDefault from "../assets/logo_default.svg";
 
-// ─── Design Tokens ────────────────────────────────────────────────────────────
+
 const C = {
   base: "#1e1e2e",
   mantle: "#181825",
@@ -25,7 +25,7 @@ const C = {
   darkPurple: "#401e66",
 };
 
-// ─── Fade-in wrapper ──────────────────────────────────────────────────────────
+
 function FadeIn({
   children,
   delay = 0,
@@ -48,7 +48,7 @@ function FadeIn({
   );
 }
 
-// ─── Logo SVG ─────────────────────────────────────────────────────────────────
+
 function LogoSvg({ className = "" }: { className?: string }) {
   return (
     <img
@@ -59,21 +59,18 @@ function LogoSvg({ className = "" }: { className?: string }) {
   );
 }
 
-// ─── Ghost illustration ───────────────────────────────────────────────────────
+
 function GhostIllustration() {
   return (
     <div className="relative w-[484px] h-[360px] shrink-0">
-      {/* Glow blur */}
       <div
         className="absolute rounded-full opacity-20 blur-[75px] w-[386px] h-[386px] bg-[#89b4fa] left-1/2 top-1/2 -translate-x-[40%] -translate-y-[48%]"
       />
-      {/* Ghost body paths */}
           <div className="absolute inset-0">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 484 360">
               <path d={svgPaths.p493c200} fill="#1E1E2E" />
             </svg>
           </div>
-          {/* Gradient body */}
           <div className="absolute inset-[4.7%_16.69%_47.91%_47.06%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 175.56 170.376">
               <path d={svgPaths.p1b01ad00} fill="url(#gh_grad1)" />
@@ -85,7 +82,6 @@ function GhostIllustration() {
               </defs>
             </svg>
           </div>
-          {/* Main body gradient */}
           <div className="absolute inset-[8.82%_4.48%_3.02%_26.03%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 336.583 316.952">
               <path d={svgPaths.pb9c1800} fill="url(#gh_grad2)" />
@@ -97,7 +93,6 @@ function GhostIllustration() {
               </defs>
             </svg>
           </div>
-          {/* Left foot */}
           <div className="absolute inset-[76.39%_69.84%_2.83%_9.83%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 98.4764 74.7265">
               <path d={svgPaths.p2f051a00} fill="url(#gh_grad3)" />
@@ -109,19 +104,16 @@ function GhostIllustration() {
               </defs>
             </svg>
           </div>
-          {/* Shadow under ghost */}
           <div className="absolute inset-[28.86%_19.83%_58.05%_71.86%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 40.2716 47.0757">
               <path d={svgPaths.p63d9760} fill="#C4C4C4" />
             </svg>
           </div>
-          {/* Left arm */}
           <div className="absolute inset-[27.26%_18.61%_53.41%_58.69%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 109.918 69.5">
               <path d={svgPaths.p31d7f1f0} fill="#C4C4C4" />
             </svg>
           </div>
-          {/* Dark detail paths */}
           <div className="absolute inset-[27.26%_33.85%_53.41%_58.69%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 36.1428 69.5">
               <path d={svgPaths.pb5b5b00} fill="#1E1E2E" />
@@ -137,7 +129,6 @@ function GhostIllustration() {
               <path d={svgPaths.p3cd3b180} fill="#D7D7D7" />
             </svg>
           </div>
-          {/* Left side panel */}
           <div className="absolute inset-[36.38%_0.03%_37.6%_75.42%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 118.923 93.55">
               <path d={svgPaths.p352ca100} fill="#1E1E2E" />
@@ -154,19 +145,16 @@ function GhostIllustration() {
               </defs>
             </svg>
           </div>
-          {/* White stripe */}
           <div className="absolute inset-[34.2%_50.34%_55.33%_46.78%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 13.93 37.65">
               <path d={svgPaths.p2fa82980} fill="white" />
             </svg>
           </div>
-          {/* Eye detail */}
           <div className="absolute inset-[14.29%_50.84%_79.32%_47.06%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 10.17 22.97">
               <path d={svgPaths.p34dcf480} fill="#C4C4C4" />
             </svg>
           </div>
-          {/* Leg / tail details */}
           <div className="absolute inset-[64.22%_59.85%_25.76%_37.35%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 13.57 36.04">
               <path d={svgPaths.p1caa0a40} fill="#1E1E2E" />
@@ -217,13 +205,11 @@ function GhostIllustration() {
               <path d={svgPaths.p23003ef0} fill="#1E1E2E" />
             </svg>
           </div>
-          {/* Ghost logo icon */}
           <div className="absolute left-[407px] top-[160.86px] w-10 h-10">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 40 40">
               <path d={svgPaths.p1ca3d600} fill="#313244" />
             </svg>
           </div>
-          {/* Lock */}
           <div className="absolute inset-[4.72%_0.01%_69.35%_81.46%]">
             <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 98.97 93.36">
               <path d={svgPaths.p17191e80} fill="white" fillOpacity="0.15" />
@@ -236,7 +222,7 @@ function GhostIllustration() {
   );
 }
 
-// ─── Arrow icon ───────────────────────────────────────────────────────────────
+
 function ArrowSvg({ color = C.darkPurple }: { color?: string }) {
   return (
     <svg width="14" height="12" fill="none" viewBox="0 0 13.5 11.5">
@@ -251,7 +237,7 @@ function ArrowSvg({ color = C.darkPurple }: { color?: string }) {
   );
 }
 
-// ─── Primary button ───────────────────────────────────────────────────────────
+
 function PrimaryButton({
   children,
   className = "",
@@ -274,7 +260,7 @@ function PrimaryButton({
   );
 }
 
-// ─── Ghost button ─────────────────────────────────────────────────────────────
+
 function GhostButton({
   children,
   className = "",
@@ -296,7 +282,7 @@ function GhostButton({
   );
 }
 
-// ─── Section label ────────────────────────────────────────────────────────────
+
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center justify-center gap-3 text-xs font-bold tracking-[1.2px] uppercase text-[#89b4fa]">
@@ -307,7 +293,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ─── Section heading ──────────────────────────────────────────────────────────
+
 function SectionHeading({
   children,
   className = "",
@@ -324,7 +310,7 @@ function SectionHeading({
   );
 }
 
-// ─── Icon container ───────────────────────────────────────────────────────────
+
 function IconBox({
   children,
   color = "mauve",
@@ -343,7 +329,7 @@ function IconBox({
   );
 }
 
-// ─── Navbar ───────────────────────────────────────────────────────────────────
+
 const levelColors: Record<string, string> = {
   Iniciante: "text-[#f38ba8] bg-[#f38ba8]/10 border-[#f38ba8]/20",
   Silhueta: "text-[#fab387] bg-[#fab387]/10 border-[#fab387]/20",
@@ -381,12 +367,10 @@ function Navbar({
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-16 md:h-20">
-        {/* Logo */}
         <button onClick={() => setView("home")} className="cursor-pointer" aria-label="Ir para a página inicial" title="Ir para a página inicial">
           <LogoSvg className="h-8 w-auto" />
         </button>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
           <button
             onClick={() => setView("home")}
@@ -435,7 +419,6 @@ function Navbar({
           </PrimaryButton>
         </nav>
 
-        {/* Mobile hamburger & level badge */}
         <div className="flex items-center gap-3 md:hidden">
           {ghostLevel ? (
             <div className={`flex items-center gap-2 px-2.5 py-1 rounded-full text-[10px] font-bold border ${levelColors[ghostLevel] || "text-[#cba6f7] bg-[#cba6f7]/10 border-[#cba6f7]/20"}`}>
@@ -471,7 +454,6 @@ function Navbar({
         </div>
       </div>
 
-      {/* Mobile menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 bg-gray-950/95 backdrop-blur-md border-b border-gray-800 ${
           open ? "max-h-[300px]" : "max-h-0"
@@ -522,7 +504,7 @@ function Navbar({
   );
 }
 
-// ─── Hero Section ─────────────────────────────────────────────────────────────
+
 function HeroSection({
   onQuizOpen,
   setView,
@@ -534,7 +516,6 @@ function HeroSection({
     <section
       className="relative min-h-screen flex flex-col overflow-hidden bg-gray-950"
     >
-      {/* Background texture */}
       <div className="absolute inset-0 pointer-events-none">
         <ImageWithFallback
           src={imgHeroSection}
@@ -546,11 +527,9 @@ function HeroSection({
         />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 flex-1 flex items-center">
         <div className="max-w-7xl mx-auto w-full px-6 md:px-10 pt-28 pb-20">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 ">
-            {/* Text */}
             <div className="flex-1 min-w-0 flex flex-col gap-6 lg:gap-8">
               <motion.h1
                 initial={{ opacity: 0, y: 32 }}
@@ -581,7 +560,6 @@ function HeroSection({
               </motion.div>
             </div>
 
-            {/* Ghost illustration */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -592,7 +570,6 @@ function HeroSection({
             </motion.div>
           </div>
 
-          {/* Stats bar */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -616,12 +593,11 @@ function HeroSection({
   );
 }
 
-// ─── Problem Statement ────────────────────────────────────────────────────────
+
 function ProblemSection() {
   return (
     <section className="py-24 bg-gray-950">
       <div className="max-w-3xl mx-auto px-6 md:px-10 flex flex-col items-center gap-10 text-center">
-        {/* Lock icon */}
         <FadeIn>
           <div
             className="flex items-center justify-center rounded-xl mb-2 w-14 h-14 bg-[#cba6f7]/10"
@@ -659,12 +635,11 @@ function ProblemSection() {
   );
 }
 
-// ─── 3 Steps Section ──────────────────────────────────────────────────────────
+
 function StepsSection({ onQuizOpen }: { onQuizOpen: () => void }) {
   return (
     <section className="py-24 bg-gray-950">
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col gap-16">
-        {/* Heading */}
         <FadeIn className="flex flex-col items-center gap-4">
           <SectionLabel>COMO FUNCIONA</SectionLabel>
           <SectionHeading>
@@ -673,16 +648,13 @@ function StepsSection({ onQuizOpen }: { onQuizOpen: () => void }) {
           </SectionHeading>
         </FadeIn>
 
-        {/* Bento grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-6 auto-rows-fr">
-          {/* Step 1 — large card */}
           <FadeIn delay={0.05} className="md:col-span-2 xl:col-span-4">
             <motion.div
               whileHover={{ y: -4 }}
               transition={{ duration: 0.3 }}
               className="relative rounded-2xl overflow-hidden h-full min-h-[280px] flex flex-col justify-end p-10 bg-[#cba6f7]/5 border border-[#cba6f7]/20 backdrop-blur-md shadow-md"
             >
-              {/* Background texture */}
               <div className="absolute inset-0 mix-blend-soft-light opacity-15 blur-[4px]">
                 <ImageWithFallback src={imgCard1} alt="" className="absolute inset-0 w-full h-full object-cover" />
               </div>
@@ -711,7 +683,6 @@ function StepsSection({ onQuizOpen }: { onQuizOpen: () => void }) {
             </motion.div>
           </FadeIn>
 
-          {/* Step 2 */}
           <FadeIn delay={0.12} className="md:col-span-2 xl:col-span-2">
             <motion.div
               whileHover={{ y: -4 }}
@@ -746,7 +717,6 @@ function StepsSection({ onQuizOpen }: { onQuizOpen: () => void }) {
             </motion.div>
           </FadeIn>
 
-          {/* Step 3 — full width row */}
           <FadeIn delay={0.2} className="md:col-span-2 xl:col-span-6">
             <motion.div
               whileHover={{ y: -3 }}
@@ -800,7 +770,7 @@ function StepsSection({ onQuizOpen }: { onQuizOpen: () => void }) {
   );
 }
 
-// ─── Features Section ─────────────────────────────────────────────────────────
+
 const features = [
   {
     title: "Criptografia e Segurança",
@@ -884,7 +854,7 @@ function FeaturesSection() {
   );
 }
 
-// ─── CTA Section ──────────────────────────────────────────────────────────────
+
 function CtaSection({
   onQuizOpen,
   setView,
@@ -924,7 +894,7 @@ function CtaSection({
   );
 }
 
-// ─── Footer ───────────────────────────────────────────────────────────────────
+
 function Footer() {
   return (
     <footer className="py-12 bg-gray-950 border-t border-gray-900">
@@ -965,7 +935,7 @@ function Footer() {
   );
 }
 
-// ─── App ──────────────────────────────────────────────────────────────────────
+
 export default function App() {
   const [quizOpen, setQuizOpen] = useState(false);
   const [view, setView] = useState<"home" | "hub">("home");

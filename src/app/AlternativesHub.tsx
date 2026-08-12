@@ -88,7 +88,7 @@ const orderedCategories = [
 ] as const;
 
 
-// ─── Dropdown Options ──────────────────────────────────────────────────────────
+
 const ghostLevelOptions = [
   { value: "Todos", label: "Todos os Níveis", icon: <Sparkles size={12} className="text-[#89b4fa]" /> },
   { value: "Iniciante", label: "1. Iniciante", icon: <span className="text-[10px]">🔴</span> },
@@ -106,7 +106,7 @@ const sortOptions = [
   { value: "name-desc", label: "Nome: Z → A", icon: <span className="text-[10px]">🔤</span> },
 ];
 
-// ─── Custom Dropdown Component ──────────────────────────────────────────────────
+
 function CustomDropdown({
   value,
   onChange,
@@ -288,15 +288,10 @@ export function AlternativesHub({
     window.scrollTo({ top: 0 });
   }, [selectedCategory]);
 
-  // ─── Score Invisível de Privacidade e Soberania Digital ───────────────────
-  // Método criado por Especialista Sênior em Cibersegurança para classificar
-  // a maturidade real de privacidade de um aplicativo.
-  // Avalia: Índice de Transparência (40%), Licença Open Source (20%),
-  // Cadastro/Acesso (15%), Simplicidade de Migração (15%) e Modelo de Negócios (10%).
+
   const calcularScoreInvisivel = (app: AlternativeApp): number => {
     let score = 0;
 
-    // 1. Índice de Transparência (max 40 pts)
     const transparency = app.privacyScore || 5;
     score += transparency * 4;
 
